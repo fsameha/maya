@@ -11,7 +11,11 @@
 - **Technical depth:** deterministic memory engine (point-in-polygon zones, person overlap, state machine with supersession); policy gate that removes tools on health routes and forces the caregiver route in code; request ledger (hash, model, latency, cost) on every recorded event; offline benchmark against YOLO11 and RT-DETR with ByteTrack; 40-utterance safety eval with 100% health recall.
 - **Limits we're honest about:** recorded run, not a live backend; 10–25 s answers; the quiet-morning ladder is a Simulated beat; small benchmark (2 clips). See docs/LIMITS.md.
 - **Bonus prizes:** Agentic (Spark tool loop with a policy gate and visible log). Viral (X post below).
-- **Links:** repo · live site · video · X post (fill in).
+- **Repository:** https://github.com/fsameha/maya
+- **Live website:** https://maya-web.fsameha.workers.dev
+- **Story:** https://maya-web.fsameha.workers.dev/demo
+- **Technical proof:** https://maya-web.fsameha.workers.dev/proof
+- **Video / X post:** add the final video and post links before submitting.
 - **Team:** Fairoz Sameha (solo).
 
 ## 3-minute video shot list

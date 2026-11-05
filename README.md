@@ -7,6 +7,8 @@ An AI care companion prototype for older adults living with memory loss, and the
 **Meta Global AI Developer Hackathon 2026 · Build for Your World · Indie developer**  
 Built by **Fairoz Sameha** with SAM 3.1, Muse Spark 1.3, and Muse Voice Transcribe.
 
+**[Live website](https://maya-web.fsameha.workers.dev)** · **[Watch the story](https://maya-web.fsameha.workers.dev/demo)** · **[Inspect the proof](https://maya-web.fsameha.workers.dev/proof)** · **[Source code](https://github.com/fsameha/maya)**
+
 ![Maya — Watching over, without watching](public/og.png)
 
 > **Demo status:** This website replays recorded model outputs on the creator's footage and needs no API keys. Caregiver interactions are scripted; inactivity escalation is simulated. It is an interactive prototype presentation, not a live care service. [Known limits](docs/LIMITS.md)

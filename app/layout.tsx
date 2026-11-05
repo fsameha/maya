@@ -13,7 +13,7 @@ const montserrat = Montserrat({ subsets: ["latin"], display: "swap", variable: "
 const jetbrains = JetBrains_Mono({ subsets: ["latin"], display: "swap", variable: "--font-jetbrains" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://maya-web.fsameha.workers.dev"),
   title: "Maya · Watching over, without watching",
   description: "An AI care companion for older adults living with memory loss, and the families who look after them.",
   openGraph: { images: ["/og.png"] },
