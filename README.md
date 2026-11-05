@@ -131,7 +131,7 @@ pnpm exec wrangler login
 pnpm deploy
 ```
 
-The Worker is named `maya-web` in [wrangler.jsonc](wrangler.jsonc). `pnpm deploy` builds the OpenNext Worker and uploads the website assets; `pnpm preview` builds and runs the Worker locally. Set `NEXT_PUBLIC_SITE_URL` at build time to your deployed origin for social metadata.
+The Worker is named `maya-web` in [wrangler.jsonc](wrangler.jsonc). `pnpm deploy` builds the OpenNext Worker and uploads the website assets; `pnpm preview` builds and runs the Worker locally. [Deployment notes and runtime compatibility](docs/DEPLOYMENT.md) Set `NEXT_PUBLIC_SITE_URL` at build time to your deployed origin for social metadata.
 
 ### Optional: regenerate model evidence
 
