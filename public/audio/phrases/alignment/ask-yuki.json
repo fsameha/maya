@@ -1,0 +1,72 @@
+{
+ "id": "ask-yuki",
+ "text": "I'll ask Yuki.",
+ "voice": "ElevenLabs Matilda",
+ "words": [
+  {
+   "word": "I'll",
+   "start": 0,
+   "end": 232
+  },
+  {
+   "word": "ask",
+   "start": 290,
+   "end": 511
+  },
+  {
+   "word": "Yuki.",
+   "start": 580,
+   "end": 1300
+  }
+ ],
+ "characters": {
+  "characters": [
+   "I",
+   "'",
+   "l",
+   "l",
+   " ",
+   "a",
+   "s",
+   "k",
+   " ",
+   "Y",
+   "u",
+   "k",
+   "i",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.104,
+   0.163,
+   0.197,
+   0.232,
+   0.29,
+   0.348,
+   0.418,
+   0.511,
+   0.58,
+   0.627,
+   0.743,
+   0.813,
+   0.987
+  ],
+  "character_end_times_seconds": [
+   0.104,
+   0.163,
+   0.197,
+   0.232,
+   0.29,
+   0.348,
+   0.418,
+   0.511,
+   0.58,
+   0.627,
+   0.743,
+   0.813,
+   0.987,
+   1.3
+  ]
+ }
+}

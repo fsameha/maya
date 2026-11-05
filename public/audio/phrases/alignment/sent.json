@@ -1,0 +1,35 @@
+{
+ "id": "sent",
+ "text": "Sent.",
+ "voice": "ElevenLabs Matilda",
+ "words": [
+  {
+   "word": "Sent.",
+   "start": 0,
+   "end": 743
+  }
+ ],
+ "characters": {
+  "characters": [
+   "S",
+   "e",
+   "n",
+   "t",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.093,
+   0.221,
+   0.279,
+   0.395
+  ],
+  "character_end_times_seconds": [
+   0.093,
+   0.221,
+   0.279,
+   0.395,
+   0.743
+  ]
+ }
+}

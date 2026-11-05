@@ -1,0 +1,35 @@
+{
+ "id": "ch6-maya-2",
+ "text": "Sent.",
+ "voice": "ElevenLabs Matilda",
+ "words": [
+  {
+   "word": "Sent.",
+   "start": 0,
+   "end": 743
+  }
+ ],
+ "characters": {
+  "characters": [
+   "S",
+   "e",
+   "n",
+   "t",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.116,
+   0.267,
+   0.337,
+   0.453
+  ],
+  "character_end_times_seconds": [
+   0.116,
+   0.267,
+   0.337,
+   0.453,
+   0.743
+  ]
+ }
+}

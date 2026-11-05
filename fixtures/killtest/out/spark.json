@@ -1,0 +1,88 @@
+{
+  "top_logprobs": 0,
+  "temperature": 1,
+  "top_p": 1,
+  "service_tier": "default",
+  "model": "muse-spark-1.3",
+  "reasoning": {
+    "effort": "high"
+  },
+  "background": false,
+  "tools": [
+    {
+      "type": "function",
+      "name": "find_object",
+      "description": "Look up where an enrolled object was last seen.",
+      "parameters": {
+        "required": [
+          "item"
+        ],
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "item": {
+            "enum": [
+              "glasses",
+              "pill box"
+            ],
+            "type": "string"
+          }
+        }
+      }
+    }
+  ],
+  "tool_choice": "auto",
+  "truncation": "disabled",
+  "id": "resp_6aebbaa55528c4a86b964dd0",
+  "object": "response",
+  "status": "completed",
+  "created_at": 1793833637,
+  "completed_at": 1793833637,
+  "error": null,
+  "incomplete_details": null,
+  "output": [
+    {
+      "type": "reasoning",
+      "id": "rs_6aebbaa55528c4a86b964dd0:rs_085b8507-7c3a-4d2e-b6b1-c3d45860a3d4",
+      "summary": [],
+      "status": "completed"
+    },
+    {
+      "type": "message",
+      "id": "rs_53016eb3-f1b4-44eb-ac88-18138c876211",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "I'll help you look for your glasses — let me check where they were last seen.",
+          "annotations": [],
+          "logprobs": []
+        }
+      ],
+      "phase": "commentary",
+      "status": "completed"
+    },
+    {
+      "type": "function_call",
+      "id": "fc_1418b93d-f24b-4430-bf77-ea74a4945ab7",
+      "call_id": "call_1418b93d-f24b-4430-bf77-ea74a4945ab7",
+      "name": "find_object",
+      "arguments": "{\"item\":\"glasses\"}",
+      "status": "completed"
+    }
+  ],
+  "instructions": null,
+  "usage": {
+    "input_tokens": 582,
+    "input_tokens_details": {
+      "cached_tokens": 113
+    },
+    "output_tokens": 872,
+    "output_tokens_details": {
+      "reasoning_tokens": 796
+    },
+    "total_tokens": 1454
+  },
+  "parallel_tool_calls": true,
+  "store": true
+}

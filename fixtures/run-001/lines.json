@@ -1,0 +1,34 @@
+[
+ {
+  "id": "ch1-maya-1",
+  "text": "Your glasses were last seen at 7:41 on the side table to your right. Let us look there together."
+ },
+ {
+  "id": "ch1-maya-2",
+  "text": "Your glasses were last seen at 7:41 on the side table, to your right."
+ },
+ {
+  "id": "ch2-maya-1",
+  "text": "Yuki left your day for you. At 1:30 pm Yuki picks you up, and at 2:00 pm is a doctor's appointment."
+ },
+ {
+  "id": "ch3-maya-1",
+  "text": "Thank you for telling me. I saved this as unconfirmed for Yuki to check."
+ },
+ {
+  "id": "ch3-maya-2",
+  "text": "I will check with Yuki for you. Let us wait a little together."
+ },
+ {
+  "id": "ch5-maya-1",
+  "text": "Good morning. Are you up?"
+ },
+ {
+  "id": "ch6-maya-1",
+  "text": "Yuki left you a message."
+ },
+ {
+  "id": "ch6-maya-2",
+  "text": "Sent."
+ }
+]

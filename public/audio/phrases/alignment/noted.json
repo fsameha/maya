@@ -1,0 +1,38 @@
+{
+ "id": "noted",
+ "text": "Noted.",
+ "voice": "ElevenLabs Matilda",
+ "words": [
+  {
+   "word": "Noted.",
+   "start": 0,
+   "end": 743
+  }
+ ],
+ "characters": {
+  "characters": [
+   "N",
+   "o",
+   "t",
+   "e",
+   "d",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.116,
+   0.209,
+   0.29,
+   0.372,
+   0.441
+  ],
+  "character_end_times_seconds": [
+   0.116,
+   0.209,
+   0.29,
+   0.372,
+   0.441,
+   0.743
+  ]
+ }
+}

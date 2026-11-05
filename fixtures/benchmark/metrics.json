@@ -1,0 +1,121 @@
+{
+  "clips": [
+    "glasses-table",
+    "vitamin-behind-laptop"
+  ],
+  "fps": 15,
+  "resolution": "1920x1080",
+  "method": "Scores every model on the same clips and writes fixtures/benchmark/metrics.json.\n\nReference boxes: SAM 3.1 boxes, each frame checked by eye on contact sheets (every 8th output frame); frames where\nthe object was visible but unboxed would be counted as misses for every model. Because the reference starts from\nSAM's boxes, SAM's own recall is not a fair number and is reported as null; its row shows coverage and ID stability.",
+  "detail": {
+    "yolo11": {
+      "type": "closed-set",
+      "glasses": {
+        "recall@0.5": null,
+        "falseAlarmsPerFrame": null,
+        "idSwitches": null,
+        "classAvailable": false
+      },
+      "pill_bottle": {
+        "recall@0.5": 0.675,
+        "falseAlarmsPerFrame": 0.004,
+        "idSwitches": 0,
+        "classAvailable": true
+      },
+      "msPerFrame": 158,
+      "usdPerClip": 0.0,
+      "hardware": "CPU (i7-8665U), local",
+      "framesScored": 257
+    },
+    "rtdetr": {
+      "type": "closed-set",
+      "glasses": {
+        "recall@0.5": null,
+        "falseAlarmsPerFrame": null,
+        "idSwitches": null,
+        "classAvailable": false
+      },
+      "pill_bottle": {
+        "recall@0.5": 0.507,
+        "falseAlarmsPerFrame": 0.0,
+        "idSwitches": 1,
+        "classAvailable": true
+      },
+      "msPerFrame": 977,
+      "usdPerClip": 0.0,
+      "hardware": "CPU (i7-8665U), local",
+      "framesScored": 257
+    },
+    "sam31": {
+      "type": "Meta",
+      "glasses": {
+        "recall@0.5": null,
+        "framesWithMask": "229/257",
+        "distinctIdsPerClip": 1.0,
+        "classAvailable": true,
+        "note": "reference source (eye-checked), recall not self-scored"
+      },
+      "pill_bottle": {
+        "recall@0.5": null,
+        "framesWithMask": "203/257",
+        "distinctIdsPerClip": 1.0,
+        "classAvailable": true,
+        "note": "reference source (eye-checked), recall not self-scored"
+      },
+      "msPerFrame": 59,
+      "usdPerClip": 0.0514,
+      "hardware": "Meta Model API (hosted), streamed"
+    }
+  },
+  "models": [
+    {
+      "id": "yolo11",
+      "recall50": null,
+      "falseAlarmsPerFrame": null,
+      "maskIoU": null,
+      "idSwitchesPer10s": null,
+      "latencyMs": 158,
+      "usdPerClip": 0.0,
+      "pillBottleRecall50": 0.675,
+      "hardware": "CPU (i7-8665U), local"
+    },
+    {
+      "id": "rtdetr",
+      "recall50": null,
+      "falseAlarmsPerFrame": null,
+      "maskIoU": null,
+      "idSwitchesPer10s": null,
+      "latencyMs": 977,
+      "usdPerClip": 0.0,
+      "pillBottleRecall50": 0.507,
+      "hardware": "CPU (i7-8665U), local"
+    },
+    {
+      "id": "sam31",
+      "recall50": null,
+      "falseAlarmsPerFrame": null,
+      "maskIoU": null,
+      "idSwitchesPer10s": 0,
+      "latencyMs": 59,
+      "usdPerClip": 0.0514,
+      "pillBottleRecall50": null,
+      "hardware": "Meta Model API (hosted), streamed"
+    }
+  ],
+  "evals": {
+    "memoryQA": null,
+    "healthRecall": 1,
+    "falseRoutes": 1,
+    "latencyP50": 14652,
+    "latencyP95": 24934,
+    "usdPerDay": 16.76
+  },
+  "grid": {
+    "yolo11": true,
+    "rtdetr": true,
+    "gdino": false,
+    "sam31": true
+  },
+  "notRun": {
+    "gdino": "Grounding DINO tiny on the laptop CPU did not finish 28 frames in 60 minutes before the deadline; no numbers reported."
+  }
+}

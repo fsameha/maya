@@ -1,0 +1,1521 @@
+{
+ "id": "run-001",
+ "mode": "replay",
+ "frame": {
+  "w": 1920,
+  "h": 1080
+ },
+ "items": [
+  {
+   "id": "glasses",
+   "name": "glasses",
+   "concept": "glasses",
+   "enrolCropUrl": "/fixtures/run-001/stills/glasses-crop.png"
+  },
+  {
+   "id": "pillbox",
+   "name": "pill bottle",
+   "concept": "white bottle",
+   "enrolCropUrl": "/fixtures/run-001/stills/pillbox-crop.png"
+  }
+ ],
+ "zones": [
+  {
+   "id": "table_right",
+   "name": "side table, right",
+   "polygon": [
+    [
+     985,
+     360
+    ],
+    [
+     1320,
+     360
+    ],
+    [
+     1320,
+     790
+    ],
+    [
+     985,
+     790
+    ]
+   ]
+  },
+  {
+   "id": "desk",
+   "name": "desk",
+   "polygon": [
+    [
+     0,
+     300
+    ],
+    [
+     880,
+     300
+    ],
+    [
+     880,
+     720
+    ],
+    [
+     0,
+     720
+    ]
+   ]
+  }
+ ],
+ "events": [
+  {
+   "at": 0,
+   "type": "chapter",
+   "n": 1,
+   "title": "Glasses"
+  },
+  {
+   "at": 400,
+   "type": "capture.clip",
+   "clipId": "glasses-table",
+   "videoUrl": "/fixtures/run-001/clips/glasses-table.mp4",
+   "fps": 15,
+   "frames": 137,
+   "motion": [
+    0,
+    0.0021,
+    0.0022,
+    0.0028,
+    0.0038,
+    0.0045,
+    0.0047,
+    0.0047,
+    0.0047,
+    0.0046,
+    0.0047,
+    0.0052,
+    0.0064,
+    0.0086,
+    0.009,
+    0.0108,
+    0.0127,
+    0.0128,
+    0.0127,
+    0.0127,
+    0.0121,
+    0.0131,
+    0.0138,
+    0.0136,
+    0.0133,
+    0.0114,
+    0.0104,
+    0.0106,
+    0.0119,
+    0.0148,
+    0.0134,
+    0.0138,
+    0.014,
+    0.0126,
+    0.0123,
+    0.0113,
+    0.0098,
+    0.0084,
+    0.0067,
+    0.0049,
+    0.0039,
+    0.0033,
+    0.004,
+    0.0044,
+    0.0043,
+    0.005,
+    0.0061,
+    0.0092,
+    0.0105,
+    0.012,
+    0.0112,
+    0.0104,
+    0.0121,
+    0.014,
+    0.0167,
+    0.0184,
+    0.0179,
+    0.0159,
+    0.0124,
+    0.0124,
+    0.013,
+    0.013,
+    0.0131,
+    0.0139,
+    0.015,
+    0.0138,
+    0.01,
+    0.0073,
+    0.0079,
+    0.0086,
+    0.0078,
+    0.0074,
+    0.0067,
+    0.0072,
+    0.0065,
+    0.0065,
+    0.0066,
+    0.0045,
+    0.0028,
+    0.0025,
+    0.0023,
+    0.0026,
+    0.0022,
+    0.0021,
+    0.0019,
+    0.0018,
+    0.0019,
+    0.0034,
+    0.0035,
+    0.0052,
+    0.0054,
+    0.0062,
+    0.007,
+    0.0077,
+    0.0099,
+    0.015,
+    0.0181,
+    0.0198,
+    0.0157,
+    0.0106,
+    0.0073,
+    0.005,
+    0.007,
+    0.008,
+    0.01,
+    0.0099,
+    0.0102,
+    0.0118,
+    0.0127,
+    0.012,
+    0.0116,
+    0.0091,
+    0.0064,
+    0.0058,
+    0.0061,
+    0.0062,
+    0.0057,
+    0.0057,
+    0.0065,
+    0.0055,
+    0.0064,
+    0.0056,
+    0.0054,
+    0.0047,
+    0.0037,
+    0.0033,
+    0.0021,
+    0.0018,
+    0.0014,
+    0.0012,
+    0.0011,
+    0.0011,
+    0.001,
+    0.0011,
+    0.001,
+    0.0009,
+    0.0007
+   ]
+  },
+  {
+   "at": 900,
+   "type": "privacy.blur",
+   "clipId": "glasses-table",
+   "personMaskUrl": "/fixtures/run-001/masks/glasses-table.person.f70.png"
+  },
+  {
+   "at": 6148,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Maya, I"
+  },
+  {
+   "at": 7096,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Maya, I can't find"
+  },
+  {
+   "at": 8044,
+   "type": "asr.final",
+   "speaker": "samiha",
+   "text": "Maya, I can't find my glasses.",
+   "audioUrl": "/fixtures/run-001/audio/ch1-samiha-1.placeholder.wav"
+  },
+  {
+   "at": 8344,
+   "type": "perception.stream",
+   "clipId": "glasses-table",
+   "concept": "glasses",
+   "lines": [
+    "<125f>0<|box;x1=1088;y1=574;x2=1192;y2=619;w=1920;h=1080;c=0.7460317611694336|><|mask;x=0;y=0;c=0.7460317611694336;data=46,105,!!!!!eCEgh2]YjePaU/hgo]D'S_6P&BW*htDe^]yDkj^@FCx9Y#nprM-''M(?=l_0DtTKBz2@sm#.iM2EAV-|>",
+    "<126f>0<|box;x1=1088;y1=574;x2=1193;y2=619;w=1920;h=1080;c=0.7460317611694336|><|mask;x=0;y=0;c=0.7460317611694336;data=46,106,!!!!!eCH6t8UzEYxnjAl?KGMz+]UkjaBimVD2`pk5SZiX/F5^a[vhDqfc9hvt=ckEa9H[AWipOH#r5!I%dFt|>",
+    "<127f>0<|box;x1=1088;y1=574;x2=1193;y2=619;w=1920;h=1080;c=0.7460317611694336|><|mask;x=0;y=0;c=0.7460317611694336;data=46,106,!!!!!dCEi8DXvHIyRs[nnmXUjmSu^T66T$n0ZJ'Ma[PJ)=)jai.#]@WXmW-*unt%DYs{nF$ozt-EscNy#!!|>",
+    "<128f>0<|box;x1=1088;y1=574;x2=1193;y2=619;w=1920;h=1080;c=0.7460317611694336|><|mask;x=0;y=0;c=0.7460317611694336;data=46,106,!!!!!hCEds*SZmKg'YXzci-*r9amnXJd^s0_75Ou7G07zfp{=D{YbCu&!FSSd-v(@T-s!gVP'icx1$/.RMfY[(!!|>",
+    "<129f>0<|box;x1=1088;y1=574;x2=1193;y2=619;w=1920;h=1080;c=0.7460317611694336|><|mask;x=0;y=0;c=0.7460317611694336;data=46,106,!!!!!dCBoES1OXIr&LAx{`qNN+YXUUq95zO&]dPowk.-U3[kBYug][tYZBDSaKF+{0KSKcG!jDZ#u+=3x!!|>",
+    "<130f>0<|box;x1=1088;y1=574;x2=1193;y2=619;w=1920;h=1080;c=0.7460317611694336|><|mask;x=0;y=0;c=0.7460317611694336;data=46,106,!!!!!eCEgh!JNaEm'Ul.1L0i!7anz[A&DT'k!]{UR*/F4hxLMen7]0.BgdPDcMVP-CR`[AY9L8]-T(0udwCd|>",
+    "<131f>0<|box;x1=1088;y1=574;x2=1193;y2=619;w=1920;h=1080;c=0.7460317611694336|><|mask;x=0;y=0;c=0.7460317611694336;data=46,106,!!!!!dCEi8DXvHIy)Z7Foy9OFwHq9I(gQhlZ5Sw?cF&wg7KG.^-i#+1o3vy?ocHpP87K0sHslD-5L=n$`!!|>",
+    "<132f>0<|box;x1=1088;y1=574;x2=1193;y2=619;w=1920;h=1080;c=0.7460317611694336|><|mask;x=0;y=0;c=0.7460317611694336;data=46,106,!!!!!fCEi8DXvHIy)Z7Foy9OV-VR-j!uDw9*9[gOga.1TC9W&'tpb3Ihvc&wY)]wmo/eLN*Wv:v-x-7w_/#%c|>",
+    "<133f>0<|box;x1=1088;y1=574;x2=1193;y2=619;w=1920;h=1080;c=0.7460317611694336|><|mask;x=0;y=0;c=0.7460317611694336;data=46,106,!!!!!eCEi8DXvHIy)Vy%Tmm4sA3ojAK+u#VNka'bLD_Z*^v3bhiogr*_iY7yGVDgO9R0f6]ALSm/-!J?5ki7|>",
+    "<134f>0<|box;x1=1088;y1=574;x2=1193;y2=619;w=1920;h=1080;c=0.7460317611694336|><|mask;x=0;y=0;c=0.7460317611694336;data=46,106,!!!!!iCEgh!JN_E._wJG0-W{fyG_ZtPi*QdL^aojnsw7_dIKY'X0?YC:gwqQ'wqLRz0:sZT#^8+aAmn3{f(V*2HG-|>",
+    "<135f>0<|box;x1=1088;y1=574;x2=1193;y2=619;w=1920;h=1080;c=0.7460317611694336|><|mask;x=0;y=0;c=0.7460317611694336;data=46,106,!!!!!cCEi8DXvHIy)Z7Foy9OVs=cQe`29Wq42F^=yI=+A8ZlRr'McgFys]W2:rXT1*UqITLmO4^bR@k31|>",
+    "<136f>0<|box;x1=1088;y1=574;x2=1193;y2=619;w=1920;h=1080;c=0.7460317611694336|><|mask;x=0;y=0;c=0.7460317611694336;data=46,106,!!!!!dCEi8DXvHIy)Z7Foy9OVs=cQe`.t/.bIPrfX0?$)PFM]]:(J)f[^P4?Rxqj^DrXNI!xJsdRZG(Ol!!|>"
+   ]
+  },
+  {
+   "at": 9544,
+   "type": "perception.done",
+   "clipId": "glasses-table",
+   "sightings": [
+    {
+     "id": "s_glasses-table_glasses_136",
+     "itemId": "glasses",
+     "clipId": "glasses-table",
+     "frame": 136,
+     "t": "2026-11-04T22:41:11.066Z",
+     "zoneId": "table_right",
+     "box": [
+      1088,
+      574,
+      1193,
+      619
+     ],
+     "maskUrl": "/fixtures/run-001/masks/glasses-table.glasses.f136.png",
+     "conf": 0.746,
+     "overlapsPerson": false
+    },
+    {
+     "id": "s_glasses-table_pillbox_136",
+     "itemId": "pillbox",
+     "clipId": "glasses-table",
+     "frame": 136,
+     "t": "2026-11-04T22:41:11.066Z",
+     "zoneId": "table_right",
+     "box": [
+      1223,
+      575,
+      1263,
+      640
+     ],
+     "maskUrl": "/fixtures/run-001/masks/glasses-table.white-bottle.f136.png",
+     "conf": 0.914,
+     "overlapsPerson": false
+    }
+   ],
+   "ms": 24491,
+   "usd": 0.0822,
+   "requestHashes": [
+    "a97f95bfa1cc16ca",
+    "3c12149e871d9ed4",
+    "240ca89bbd3229c8"
+   ],
+   "model": "sam-3.1"
+  },
+  {
+   "at": 9844,
+   "type": "memory.state",
+   "itemId": "glasses",
+   "state": "LAST_SEEN",
+   "sightingId": "s_glasses-table_glasses_136",
+   "superseded": []
+  },
+  {
+   "at": 10044,
+   "type": "policy.check",
+   "text": "Maya, I can't find my glasses.",
+   "lexiconHits": [],
+   "classifier": {
+    "health_related": false
+   },
+   "route": "agent",
+   "model": "muse-spark-1.3"
+  },
+  {
+   "at": 10344,
+   "type": "agent.tool",
+   "name": "find_object",
+   "args": {
+    "item": "glasses"
+   },
+   "result": {
+    "sightingId": "s_glasses-table_glasses_136",
+    "zone": "side table, right",
+    "time": "07:41",
+    "relative": "to your right",
+    "conf": 0.746,
+    "lastSeenAt": "07:41",
+    "repeated": false
+   }
+  },
+  {
+   "at": 12644,
+   "type": "agent.reply",
+   "text": "Your glasses were last seen at 7:41 on the side table to your right. Let us look there together.",
+   "facts": {
+    "zone": "side table, right",
+    "time": "07:41",
+    "relative": "to your right"
+   },
+   "expression": "happy",
+   "audioUrl": "/fixtures/run-001/audio/ch1-maya-1.mp3",
+   "alignment": [
+    {
+     "word": "Your",
+     "start": 0,
+     "end": 221
+    },
+    {
+     "word": "glasses",
+     "start": 267,
+     "end": 731
+    },
+    {
+     "word": "were",
+     "start": 789,
+     "end": 929
+    },
+    {
+     "word": "last",
+     "start": 975,
+     "end": 1219
+    },
+    {
+     "word": "seen",
+     "start": 1254,
+     "end": 1486
+    },
+    {
+     "word": "at",
+     "start": 1533,
+     "end": 1614
+    },
+    {
+     "word": "7:41",
+     "start": 1695,
+     "end": 2496
+    },
+    {
+     "word": "on",
+     "start": 2647,
+     "end": 2752
+    },
+    {
+     "word": "the",
+     "start": 2786,
+     "end": 2856
+    },
+    {
+     "word": "side",
+     "start": 2902,
+     "end": 3158
+    },
+    {
+     "word": "table",
+     "start": 3193,
+     "end": 3483
+    },
+    {
+     "word": "to",
+     "start": 3518,
+     "end": 3587
+    },
+    {
+     "word": "your",
+     "start": 3657,
+     "end": 3773
+    },
+    {
+     "word": "right.",
+     "start": 3808,
+     "end": 4261
+    },
+    {
+     "word": "Let",
+     "start": 4772,
+     "end": 4934
+    },
+    {
+     "word": "us",
+     "start": 4981,
+     "end": 5062
+    },
+    {
+     "word": "look",
+     "start": 5108,
+     "end": 5271
+    },
+    {
+     "word": "there",
+     "start": 5317,
+     "end": 5492
+    },
+    {
+     "word": "together.",
+     "start": 5526,
+     "end": 6269
+    }
+   ],
+   "model": "muse-spark-1.3",
+   "ms": 15769,
+   "usd": 0.010036,
+   "requestHashes": [
+    "8ceae87c10da9218",
+    "75742e538b7058d8",
+    "7e373c8441e51cdd"
+   ]
+  },
+  {
+   "at": 22602,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Maya, where"
+  },
+  {
+   "at": 23660,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Maya, where are my"
+  },
+  {
+   "at": 24189,
+   "type": "asr.final",
+   "speaker": "samiha",
+   "text": "Maya, where are my glasses?",
+   "audioUrl": "/fixtures/run-001/audio/ch1-samiha-2.placeholder.wav"
+  },
+  {
+   "at": 24489,
+   "type": "policy.check",
+   "text": "Maya, where are my glasses?",
+   "lexiconHits": [],
+   "classifier": {
+    "health_related": false
+   },
+   "route": "agent",
+   "model": "muse-spark-1.3"
+  },
+  {
+   "at": 24789,
+   "type": "agent.tool",
+   "name": "find_object",
+   "args": {
+    "item": "glasses"
+   },
+   "result": {
+    "sightingId": "s_glasses-table_glasses_136",
+    "zone": "side table, right",
+    "time": "07:41",
+    "relative": "to your right",
+    "conf": 0.746,
+    "lastSeenAt": "07:41",
+    "repeated": true
+   }
+  },
+  {
+   "at": 25589,
+   "type": "agent.reply",
+   "text": "Your glasses were last seen at 7:41 on the side table, to your right.",
+   "facts": {
+    "zone": "side table, right",
+    "time": "07:41",
+    "relative": "to your right"
+   },
+   "expression": "neutral",
+   "audioUrl": "/fixtures/run-001/audio/ch1-maya-2.mp3",
+   "alignment": [
+    {
+     "word": "Your",
+     "start": 103,
+     "end": 278
+    },
+    {
+     "word": "glasses",
+     "start": 324,
+     "end": 730
+    },
+    {
+     "word": "were",
+     "start": 777,
+     "end": 928
+    },
+    {
+     "word": "last",
+     "start": 974,
+     "end": 1253
+    },
+    {
+     "word": "seen",
+     "start": 1322,
+     "end": 1555
+    },
+    {
+     "word": "at",
+     "start": 1613,
+     "end": 1682
+    },
+    {
+     "word": "7:41",
+     "start": 1764,
+     "end": 2542
+    },
+    {
+     "word": "on",
+     "start": 2611,
+     "end": 2669
+    },
+    {
+     "word": "the",
+     "start": 2704,
+     "end": 2774
+    },
+    {
+     "word": "side",
+     "start": 2809,
+     "end": 3064
+    },
+    {
+     "word": "table,",
+     "start": 3087,
+     "end": 3436
+    },
+    {
+     "word": "to",
+     "start": 3482,
+     "end": 3563
+    },
+    {
+     "word": "your",
+     "start": 3633,
+     "end": 3737
+    },
+    {
+     "word": "right.",
+     "start": 3784,
+     "end": 4364
+    }
+   ],
+   "model": "muse-spark-1.3",
+   "ms": 12251,
+   "usd": 0.00835,
+   "requestHashes": [
+    "3c6c1d06d58c7363",
+    "4ab9bfd66e12760c",
+    "eb89f7ca0580a25a"
+   ]
+  },
+  {
+   "at": 34000,
+   "type": "chapter",
+   "n": 2,
+   "title": "Today"
+  },
+  {
+   "at": 36227,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Maya, what's"
+  },
+  {
+   "at": 37254,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Maya, what's my day"
+  },
+  {
+   "at": 37768,
+   "type": "asr.final",
+   "speaker": "samiha",
+   "text": "Maya, what's my day today?",
+   "audioUrl": "/fixtures/run-001/audio/ch2-samiha-1.placeholder.wav"
+  },
+  {
+   "at": 38068,
+   "type": "policy.check",
+   "text": "Maya, what's my day today?",
+   "lexiconHits": [],
+   "classifier": {
+    "health_related": false
+   },
+   "route": "agent",
+   "model": "muse-spark-1.3"
+  },
+  {
+   "at": 38568,
+   "type": "agent.tool",
+   "name": "get_day",
+   "args": {},
+   "result": {
+    "appointments": [
+     {
+      "time": "2:00 pm",
+      "title": "Doctor's appointment"
+     },
+     {
+      "time": "1:30 pm",
+      "title": "Yuki picks you up"
+     }
+    ],
+    "enteredBy": "Yuki"
+   }
+  },
+  {
+   "at": 39468,
+   "type": "agent.reply",
+   "text": "Yuki left your day for you. At 1:30 pm Yuki picks you up, and at 2:00 pm is a doctor's appointment.",
+   "facts": {
+    "appointment": "2 pm",
+    "pickup": "1:30"
+   },
+   "expression": "neutral",
+   "audioUrl": "/fixtures/run-001/audio/ch2-maya-1.mp3",
+   "alignment": [
+    {
+     "word": "Yuki",
+     "start": 0,
+     "end": 383
+    },
+    {
+     "word": "left",
+     "start": 453,
+     "end": 639
+    },
+    {
+     "word": "your",
+     "start": 662,
+     "end": 755
+    },
+    {
+     "word": "day",
+     "start": 801,
+     "end": 940
+    },
+    {
+     "word": "for",
+     "start": 998,
+     "end": 1115
+    },
+    {
+     "word": "you.",
+     "start": 1173,
+     "end": 1533
+    },
+    {
+     "word": "At",
+     "start": 1974,
+     "end": 2113
+    },
+    {
+     "word": "1:30",
+     "start": 2171,
+     "end": 2705
+    },
+    {
+     "word": "pm",
+     "start": 2798,
+     "end": 3158
+    },
+    {
+     "word": "Yuki",
+     "start": 3309,
+     "end": 3646
+    },
+    {
+     "word": "picks",
+     "start": 3692,
+     "end": 3924
+    },
+    {
+     "word": "you",
+     "start": 3959,
+     "end": 4040
+    },
+    {
+     "word": "up,",
+     "start": 4122,
+     "end": 4354
+    },
+    {
+     "word": "and",
+     "start": 4481,
+     "end": 4621
+    },
+    {
+     "word": "at",
+     "start": 4679,
+     "end": 4748
+    },
+    {
+     "word": "2:00",
+     "start": 4807,
+     "end": 5039
+    },
+    {
+     "word": "pm",
+     "start": 5097,
+     "end": 5422
+    },
+    {
+     "word": "is",
+     "start": 5492,
+     "end": 5573
+    },
+    {
+     "word": "a",
+     "start": 5619,
+     "end": 5642
+    },
+    {
+     "word": "doctor's",
+     "start": 5700,
+     "end": 6084
+    },
+    {
+     "word": "appointment.",
+     "start": 6118,
+     "end": 6966
+    }
+   ],
+   "model": "muse-spark-1.3",
+   "ms": 10891,
+   "usd": 0.007566,
+   "requestHashes": [
+    "812d91bd4bd74575",
+    "062a5608168c4240",
+    "ec351f5bfdfc6367"
+   ]
+  },
+  {
+   "at": 50000,
+   "type": "chapter",
+   "n": 3,
+   "title": "Medicine"
+  },
+  {
+   "at": 50400,
+   "type": "capture.clip",
+   "clipId": "vitamin-behind-laptop",
+   "videoUrl": "/fixtures/run-001/clips/vitamin-behind-laptop.mp4",
+   "fps": 15,
+   "frames": 120,
+   "motion": [
+    0,
+    0.0048,
+    0.0064,
+    0.0082,
+    0.0089,
+    0.0094,
+    0.0089,
+    0.0075,
+    0.0075,
+    0.0071,
+    0.0063,
+    0.0063,
+    0.006,
+    0.0051,
+    0.0033,
+    0.0022,
+    0.0039,
+    0.0057,
+    0.0073,
+    0.0089,
+    0.0097,
+    0.0107,
+    0.0125,
+    0.0109,
+    0.0108,
+    0.0112,
+    0.0112,
+    0.0091,
+    0.0073,
+    0.0053,
+    0.0038,
+    0.0035,
+    0.0031,
+    0.0024,
+    0.0018,
+    0.0016,
+    0.0012,
+    0.0013,
+    0.0014,
+    0.0014,
+    0.0013,
+    0.0013,
+    0.0014,
+    0.0015,
+    0.0016,
+    0.0019,
+    0.0019,
+    0.0018,
+    0.0022,
+    0.0018,
+    0.0012,
+    0.0013,
+    0.0014,
+    0.0013,
+    0.0018,
+    0.0019,
+    0.0021,
+    0.0017,
+    0.0015,
+    0.0011,
+    0.001,
+    0.0016,
+    0.0021,
+    0.0037,
+    0.0033,
+    0.0031,
+    0.0028,
+    0.0017,
+    0.0015,
+    0.0016,
+    0.002,
+    0.0021,
+    0.0024,
+    0.0029,
+    0.0034,
+    0.0041,
+    0.004,
+    0.0054,
+    0.0065,
+    0.0062,
+    0.0052,
+    0.0041,
+    0.004,
+    0.0039,
+    0.0036,
+    0.003,
+    0.0022,
+    0.0016,
+    0.0014,
+    0.0013,
+    0.0009,
+    0.0008,
+    0.0012,
+    0.0017,
+    0.0023,
+    0.0034,
+    0.0046,
+    0.0043,
+    0.005,
+    0.0056,
+    0.0057,
+    0.0058,
+    0.0038,
+    0.0041,
+    0.0051,
+    0.0068,
+    0.0084,
+    0.0103,
+    0.011,
+    0.0125,
+    0.0126,
+    0.0117,
+    0.0097,
+    0.0098,
+    0.0105,
+    0.0111,
+    0.012,
+    0.0136,
+    0.0141,
+    0.0143
+   ]
+  },
+  {
+   "at": 51400,
+   "type": "perception.stream",
+   "clipId": "vitamin-behind-laptop",
+   "concept": "white bottle",
+   "lines": [
+    "<68f>0<|box;x1=650;y1=12;x2=709;y2=95;w=1920;h=1080;c=0.9336099624633789|><|mask;x=0;y=0;c=0.9336099624633789;data=84,60,!!!!!eEfwkMG:ktrlD#pjbT.Bqm8kNP(1naSsBQ=42/:jt/*/3xO72Qa8o[hi3.RJ7e9u0s=gj.IuhJk`QV4|>",
+    "<69f>0<|box;x1=651;y1=16;x2=707;y2=100;w=1920;h=1080;c=0.9336099624633789|><|mask;x=0;y=0;c=0.9336099624633789;data=85,57,!!!!!^Enj1Et!5bO*:{q?a:OhX^M'XdoA:onT75F='*ntSukdF-Y0^R$RGfe(LwPlWlz=e+ro9#|>",
+    "<70f>0<|box;x1=649;y1=25;x2=704;y2=107;w=1920;h=1080;c=0.9336099624633789|><|mask;x=0;y=0;c=0.9336099624633789;data=83,56,!!!!!qEno8uhsWl`Ui:lqm2WDEjCr(2CS+l2Td)l]]En&yn9kp(ZeQhhJWME^Ur-]-]813Umy2[&'B5EfD6Wcp[m#)SuIQ8wC'B|>",
+    "<71f>0<|box;x1=644;y1=35;x2=699;y2=117;w=1920;h=1080;c=0.9336099624633789|><|mask;x=0;y=0;c=0.9336099624633789;data=83,56,!!!!!kEnihB9L^@w1FkbxV6nh3a](7X]jI)!Gq1Xf7I6qXZ_:[!B/v#pOmWm/W.{+^Es+rv-6u:u0DL)32XA0&^h#Zv|>",
+    "<72f>0<|box;x1=641;y1=47;x2=694;y2=134;w=1920;h=1080;c=0.9336099624633789|><|mask;x=0;y=0;c=0.9336099624633789;data=88,54,!!!!!hF/j+Lu8r)Xjq{G1Eo#*+bYHt[H`!/0X/7ade1j1/qSj6jBQED`b6[J(kgsD7I{^==!R+DcJFu--kX_&XYf|>",
+    "<73f>0<|box;x1=634;y1=69;x2=689;y2=154;w=1920;h=1080;c=0.9336099624633789|><|mask;x=0;y=0;c=0.9336099624633789;data=86,56,!!!!!dFjG$rv-{xWUfMYgND56D@dQ%e4LrYnLx9Vqt78ln`/=#^+9Ir=Np4L:V0kHwYVE_r?VrGaUKmR1!!|>",
+    "<74f>0<|box;x1=621;y1=92;x2=679;y2=177;w=1920;h=1080;c=0.9336099624633789|><|mask;x=0;y=0;c=0.9336099624633789;data=86,59,!!!!!aFwEpJdX@)g8MPO)$3{hdukl:s-w!'q4$TAfea)+27fM@1]rUxY-F#Z{r64n)F(n)wB)c4$DRg|>",
+    "<75f>0<|box;x1=601;y1=117;x2=658;y2=200;w=1920;h=1080;c=0.9336099624633789|><|mask;x=0;y=0;c=0.9336099624633789;data=84,58,!!!!!^G+GTYosWbqBtt09RWP4lt3du8JVInG1PPDW+yV'CKt2I&C+L12.WP)`EUE0JUGD^&tl9c|>",
+    "<76f>0<|box;x1=577;y1=146;x2=637;y2=226;w=1920;h=1080;c=0.9336099624633789|><|mask;x=0;y=0;c=0.9336099624633789;data=81,61,!!!!![F^-{/4X#HeX.p%G4)'OCxJt:G3eW{O.d?&DDw+TdZD!qb%[B(NZvejP4{fmhH81)^[{|>",
+    "<77f>0<|box;x1=559;y1=177;x2=612;y2=250;w=1920;h=1080;c=0.9336099624633789|><|mask;x=0;y=0;c=0.9336099624633789;data=74,54,!!!!!TFj@V_-`aHYUcG11no+C1&$r.y=8W9c&GBIOgAQJWKp7Cwd+OFf).2mXs1W|>",
+    "<78f>0<|box;x1=547;y1=208;x2=595;y2=276;w=1920;h=1080;c=0.9336099624633789|><|mask;x=0;y=0;c=0.9336099624633789;data=69,49,!!!!!YFw.^w7tVM@gPQ_-dn@+1h*)MNesUvqD[vh@+jdg3$tvm@]^jAp@a9jbAGNDDP*hr|>",
+    "<79f>0<|box;x1=537;y1=240;x2=571;y2=272;w=1920;h=1080;c=0.9336099624633789|><|mask;x=0;y=0;c=0.9336099624633789;data=33,35,!!!!!GEvzQXj{4f+Y0Vnog0al3EQyYg-Z9qxDTYHXnpAE(!!|>"
+   ]
+  },
+  {
+   "at": 52600,
+   "type": "perception.done",
+   "clipId": "vitamin-behind-laptop",
+   "sightings": [
+    {
+     "id": "s_vitamin-behind-laptop_glasses_119",
+     "itemId": "glasses",
+     "clipId": "vitamin-behind-laptop",
+     "frame": 119,
+     "t": "2026-11-04T22:42:35.933Z",
+     "zoneId": "table_right",
+     "box": [
+      1087,
+      574,
+      1192,
+      619
+     ],
+     "maskUrl": "/fixtures/run-001/masks/vitamin-behind-laptop.glasses.f119.png",
+     "conf": 0.942,
+     "overlapsPerson": false
+    },
+    {
+     "id": "s_vitamin-behind-laptop_pillbox_79",
+     "itemId": "pillbox",
+     "clipId": "vitamin-behind-laptop",
+     "frame": 79,
+     "t": "2026-11-04T22:42:33.266Z",
+     "zoneId": "none",
+     "box": [
+      537,
+      240,
+      571,
+      272
+     ],
+     "maskUrl": "/fixtures/run-001/masks/vitamin-behind-laptop.white-bottle.f79.png",
+     "conf": 0.934,
+     "overlapsPerson": true,
+     "personRegion": "hand"
+    }
+   ],
+   "ms": 21410,
+   "usd": 0.072,
+   "requestHashes": [
+    "bceeb3b8e70effa1",
+    "70c31bc81adb4eda",
+    "3adedabcfc9f8564"
+   ],
+   "model": "sam-3.1"
+  },
+  {
+   "at": 52800,
+   "type": "memory.state",
+   "itemId": "pillbox",
+   "state": "LAST_SEEN",
+   "sightingId": "s_glasses-table_pillbox_136",
+   "superseded": []
+  },
+  {
+   "at": 54399,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "This is"
+  },
+  {
+   "at": 55198,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "This is my medicine."
+  },
+  {
+   "at": 55997,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "This is my medicine. I take"
+  },
+  {
+   "at": 56795,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "This is my medicine. I take it twice"
+  },
+  {
+   "at": 57594,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "This is my medicine. I take it twice a day"
+  },
+  {
+   "at": 58393,
+   "type": "asr.final",
+   "speaker": "samiha",
+   "text": "This is my medicine. I take it twice a day after eating.",
+   "audioUrl": "/fixtures/run-001/audio/ch3-samiha-1.placeholder.wav"
+  },
+  {
+   "at": 58693,
+   "type": "policy.check",
+   "text": "This is my medicine. I take it twice a day after eating.",
+   "lexiconHits": [
+    "medicine",
+    "take"
+   ],
+   "classifier": {
+    "health_related": true
+   },
+   "route": "ask_caregiver",
+   "model": "muse-spark-1.3"
+  },
+  {
+   "at": 59293,
+   "type": "agent.tool",
+   "name": "propose_note",
+   "args": {
+    "item": "medicine",
+    "text": "I take it twice a day after eating."
+   },
+   "result": {
+    "noteId": "n_001",
+    "status": "UNCONFIRMED",
+    "needs": "Yuki's confirmation"
+   }
+  },
+  {
+   "at": 59493,
+   "type": "note.created",
+   "noteId": "n_001",
+   "text": "Pill bottle, twice a day after meals",
+   "by": "maya"
+  },
+  {
+   "at": 59893,
+   "type": "agent.reply",
+   "text": "Thank you for telling me. I saved this as unconfirmed for Yuki to check.",
+   "facts": {},
+   "expression": "neutral",
+   "audioUrl": "/fixtures/run-001/audio/ch3-maya-1.mp3",
+   "alignment": [
+    {
+     "word": "Thank",
+     "start": 0,
+     "end": 255
+    },
+    {
+     "word": "you",
+     "start": 302,
+     "end": 383
+    },
+    {
+     "word": "for",
+     "start": 430,
+     "end": 534
+    },
+    {
+     "word": "telling",
+     "start": 569,
+     "end": 836
+    },
+    {
+     "word": "me.",
+     "start": 882,
+     "end": 1184
+    },
+    {
+     "word": "I",
+     "start": 1695,
+     "end": 1741
+    },
+    {
+     "word": "saved",
+     "start": 1869,
+     "end": 2194
+    },
+    {
+     "word": "this",
+     "start": 2218,
+     "end": 2426
+    },
+    {
+     "word": "as",
+     "start": 2485,
+     "end": 2566
+    },
+    {
+     "word": "unconfirmed",
+     "start": 2682,
+     "end": 3274
+    },
+    {
+     "word": "for",
+     "start": 3320,
+     "end": 3425
+    },
+    {
+     "word": "Yuki",
+     "start": 3471,
+     "end": 3704
+    },
+    {
+     "word": "to",
+     "start": 3750,
+     "end": 3808
+    },
+    {
+     "word": "check.",
+     "start": 3866,
+     "end": 4505
+    }
+   ],
+   "model": "muse-spark-1.3",
+   "ms": 14652,
+   "usd": 0.010018,
+   "requestHashes": [
+    "2627048770997150",
+    "4648382286504674",
+    "3f2a09028e8a9bbb"
+   ]
+  },
+  {
+   "at": 65783,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Can I"
+  },
+  {
+   "at": 66673,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Can I take another"
+  },
+  {
+   "at": 67118,
+   "type": "asr.final",
+   "speaker": "samiha",
+   "text": "Can I take another one?",
+   "audioUrl": "/fixtures/run-001/audio/ch3-samiha-2.placeholder.wav"
+  },
+  {
+   "at": 67418,
+   "type": "policy.check",
+   "text": "Can I take another one?",
+   "lexiconHits": [
+    "take"
+   ],
+   "classifier": {
+    "health_related": true
+   },
+   "route": "ask_caregiver",
+   "model": "muse-spark-1.3"
+  },
+  {
+   "at": 67918,
+   "type": "agent.tool",
+   "name": "ask_caregiver",
+   "args": {
+    "about": "medicine",
+    "question": "Can I take another one?"
+   },
+   "result": {
+    "questionId": "q_001",
+    "delivered": true,
+    "to": "Yuki"
+   }
+  },
+  {
+   "at": 68418,
+   "type": "agent.reply",
+   "text": "I will check with Yuki for you. Let us wait a little together.",
+   "facts": {},
+   "expression": "neutral",
+   "audioUrl": "/fixtures/run-001/audio/ch3-maya-2.mp3",
+   "alignment": [
+    {
+     "word": "I",
+     "start": 0,
+     "end": 81
+    },
+    {
+     "word": "will",
+     "start": 163,
+     "end": 302
+    },
+    {
+     "word": "check",
+     "start": 337,
+     "end": 534
+    },
+    {
+     "word": "with",
+     "start": 580,
+     "end": 697
+    },
+    {
+     "word": "Yuki",
+     "start": 755,
+     "end": 1010
+    },
+    {
+     "word": "for",
+     "start": 1068,
+     "end": 1184
+    },
+    {
+     "word": "you.",
+     "start": 1242,
+     "end": 1556
+    },
+    {
+     "word": "Let",
+     "start": 1997,
+     "end": 2136
+    },
+    {
+     "word": "us",
+     "start": 2194,
+     "end": 2276
+    },
+    {
+     "word": "wait",
+     "start": 2334,
+     "end": 2496
+    },
+    {
+     "word": "a",
+     "start": 2531,
+     "end": 2566
+    },
+    {
+     "word": "little",
+     "start": 2589,
+     "end": 2786
+    },
+    {
+     "word": "together.",
+     "start": 2821,
+     "end": 3576
+    }
+   ],
+   "model": "muse-spark-1.3",
+   "ms": 24934,
+   "usd": 0.014554,
+   "requestHashes": [
+    "001f22a539807f4a",
+    "20a752dd2017fd68",
+    "5d9d2da35c6ed5eb"
+   ]
+  },
+  {
+   "at": 80000,
+   "type": "chapter",
+   "n": 4,
+   "title": "Yuki confirms"
+  },
+  {
+   "at": 81200,
+   "type": "caregiver.push",
+   "title": "Maya",
+   "body": "Mum says: pill bottle, twice a day after meals. Confirm?",
+   "actions": [
+    "Confirm",
+    "Edit"
+   ]
+  },
+  {
+   "at": 84600,
+   "type": "caregiver.tap",
+   "action": "Confirm"
+  },
+  {
+   "at": 85000,
+   "type": "note.confirmed",
+   "noteId": "n_001",
+   "text": "Reminder set by Yuki",
+   "by": "yuki"
+  },
+  {
+   "at": 89500,
+   "type": "message.voice",
+   "from": "yuki",
+   "audioUrl": "/fixtures/run-001/audio/ch4-yuki-1.placeholder.wav",
+   "transcript": "Only one after dinner, Mum. Love you."
+  },
+  {
+   "at": 98000,
+   "type": "chapter",
+   "n": 5,
+   "title": "Quiet morning"
+  },
+  {
+   "at": 99000,
+   "type": "escalation.step",
+   "step": "usual_missed",
+   "simulated": true
+  },
+  {
+   "at": 100400,
+   "type": "escalation.step",
+   "step": "check_in",
+   "simulated": true
+  },
+  {
+   "at": 100600,
+   "type": "agent.tool",
+   "name": "check_in_reply",
+   "args": {
+    "prompt": "Good morning. Are you up?"
+   },
+   "result": {
+    "replied": false,
+    "waitedMin": 10
+   }
+  },
+  {
+   "at": 100800,
+   "type": "agent.reply",
+   "text": "Good morning. Are you up?",
+   "facts": {},
+   "expression": "concerned",
+   "audioUrl": "/fixtures/run-001/audio/ch5-maya-1.mp3",
+   "alignment": [
+    {
+     "word": "Good",
+     "start": 0,
+     "end": 221
+    },
+    {
+     "word": "morning.",
+     "start": 267,
+     "end": 743
+    },
+    {
+     "word": "Are",
+     "start": 859,
+     "end": 1022
+    },
+    {
+     "word": "you",
+     "start": 1057,
+     "end": 1138
+    },
+    {
+     "word": "up?",
+     "start": 1219,
+     "end": 1672
+    }
+   ]
+  },
+  {
+   "at": 107000,
+   "type": "escalation.step",
+   "step": "alert",
+   "simulated": true
+  },
+  {
+   "at": 107100,
+   "type": "caregiver.push",
+   "title": "Simulated · Maya",
+   "body": "No signs of activity since 9:12. Kettle usually by 8:05.",
+   "actions": [
+    "Call Mum"
+   ]
+  },
+  {
+   "at": 111000,
+   "type": "escalation.step",
+   "step": "second_contact",
+   "simulated": true
+  },
+  {
+   "at": 116000,
+   "type": "chapter",
+   "n": 6,
+   "title": "Messages"
+  },
+  {
+   "at": 116800,
+   "type": "agent.tool",
+   "name": "play_messages",
+   "args": {},
+   "result": {
+    "count": 1,
+    "from": "yuki"
+   }
+  },
+  {
+   "at": 117200,
+   "type": "agent.reply",
+   "text": "Yuki left you a message.",
+   "facts": {},
+   "expression": "neutral",
+   "audioUrl": "/fixtures/run-001/audio/ch6-maya-1.mp3",
+   "alignment": [
+    {
+     "word": "Yuki",
+     "start": 0,
+     "end": 337
+    },
+    {
+     "word": "left",
+     "start": 406,
+     "end": 580
+    },
+    {
+     "word": "you",
+     "start": 604,
+     "end": 673
+    },
+    {
+     "word": "a",
+     "start": 720,
+     "end": 743
+    },
+    {
+     "word": "message.",
+     "start": 789,
+     "end": 1533
+    }
+   ]
+  },
+  {
+   "at": 119800,
+   "type": "message.voice",
+   "from": "yuki",
+   "audioUrl": "/fixtures/run-001/audio/ch4-yuki-1.placeholder.wav",
+   "transcript": "Only one after dinner, Mum. Love you."
+  },
+  {
+   "at": 125059,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Tell her"
+  },
+  {
+   "at": 125918,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Tell her I found"
+  },
+  {
+   "at": 126777,
+   "type": "asr.final",
+   "speaker": "samiha",
+   "text": "Tell her I found my glasses.",
+   "audioUrl": "/fixtures/run-001/audio/ch6-samiha-1.placeholder.wav"
+  },
+  {
+   "at": 127377,
+   "type": "message.voice",
+   "from": "samiha",
+   "audioUrl": "/fixtures/run-001/audio/ch6-samiha-msg.placeholder.wav",
+   "transcript": "Tell her I found my glasses."
+  },
+  {
+   "at": 127677,
+   "type": "agent.reply",
+   "text": "Sent.",
+   "facts": {},
+   "expression": "happy",
+   "audioUrl": "/fixtures/run-001/audio/ch6-maya-2.mp3",
+   "alignment": [
+    {
+     "word": "Sent.",
+     "start": 0,
+     "end": 743
+    }
+   ]
+  },
+  {
+   "at": 127977,
+   "type": "spend",
+   "usd": 0.359,
+   "clipsLeft": 0
+  }
+ ],
+ "recordedAt": "2026-11-04T23:44:12.944Z",
+ "firstPlacedFrame": 28
+}

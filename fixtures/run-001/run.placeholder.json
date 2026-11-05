@@ -1,0 +1,1125 @@
+{
+ "id": "run-001",
+ "mode": "replay",
+ "frame": {
+  "w": 1280,
+  "h": 720
+ },
+ "items": [
+  {
+   "id": "glasses",
+   "name": "glasses",
+   "concept": "black reading glasses",
+   "enrolCropUrl": "/fixtures/run-001/stills/glasses-crop.placeholder.png"
+  },
+  {
+   "id": "pillbox",
+   "name": "pill box",
+   "concept": "pill box",
+   "enrolCropUrl": "/fixtures/run-001/stills/pillbox-crop.placeholder.png"
+  }
+ ],
+ "zones": [
+  {
+   "id": "table_right",
+   "name": "table, right",
+   "polygon": [
+    [
+     760,
+     400
+    ],
+    [
+     1190,
+     400
+    ],
+    [
+     1190,
+     500
+    ],
+    [
+     760,
+     500
+    ]
+   ]
+  },
+  {
+   "id": "kitchen_shelf",
+   "name": "kitchen shelf",
+   "polygon": [
+    [
+     540,
+     290
+    ],
+    [
+     730,
+     290
+    ],
+    [
+     730,
+     450
+    ],
+    [
+     540,
+     450
+    ]
+   ]
+  },
+  {
+   "id": "bedside",
+   "name": "bedside",
+   "polygon": [
+    [
+     30,
+     340
+    ],
+    [
+     270,
+     340
+    ],
+    [
+     270,
+     470
+    ],
+    [
+     30,
+     470
+    ]
+   ]
+  }
+ ],
+ "events": [
+  {
+   "at": 0,
+   "type": "chapter",
+   "n": 1,
+   "title": "Glasses"
+  },
+  {
+   "at": 400,
+   "type": "capture.clip",
+   "clipId": "clip_0412",
+   "videoUrl": "/fixtures/run-001/clips/clip_0412.placeholder.mp4",
+   "fps": 5,
+   "frames": 50,
+   "motion": [
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.024,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.024,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.021,
+    0.025,
+    0.02,
+    0.02,
+    0.021,
+    0.037,
+    0.06,
+    0.094,
+    0.143,
+    0.182,
+    0.268,
+    0.374,
+    0.494,
+    0.619,
+    0.739,
+    0.838,
+    0.878,
+    0.904,
+    0.886,
+    0.826,
+    0.735,
+    0.623,
+    0.506,
+    0.366,
+    0.268,
+    0.19,
+    0.131,
+    0.09,
+    0.064,
+    0.049,
+    0.02
+   ]
+  },
+  {
+   "at": 900,
+   "type": "privacy.blur",
+   "clipId": "clip_0412",
+   "personMaskUrl": "/fixtures/run-001/masks/person_0412.placeholder.png"
+  },
+  {
+   "at": 6148,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Maya, I"
+  },
+  {
+   "at": 7096,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Maya, I can't find"
+  },
+  {
+   "at": 8044,
+   "type": "asr.final",
+   "speaker": "samiha",
+   "text": "Maya, I can't find my glasses.",
+   "audioUrl": "/fixtures/run-001/audio/ch1-samiha-1.placeholder.wav"
+  },
+  {
+   "at": 8344,
+   "type": "perception.stream",
+   "clipId": "clip_0412",
+   "concept": "black reading glasses",
+   "lines": [
+    "<0f> {\"concept\":\"black reading glasses\",\"objects\":[{\"id\":1,\"score\":0.860,\"box\":[880,438,980,472],\"mask\":\"<one_bit 100x34>\"}]}",
+    "<1f> {\"concept\":\"black reading glasses\",\"objects\":[{\"id\":1,\"score\":0.875,\"box\":[880,438,980,472],\"mask\":\"<one_bit 100x34>\"}]}",
+    "<2f> {\"concept\":\"black reading glasses\",\"objects\":[{\"id\":1,\"score\":0.890,\"box\":[880,438,980,472],\"mask\":\"<one_bit 100x34>\"}]}",
+    "<3f> {\"concept\":\"black reading glasses\",\"objects\":[{\"id\":1,\"score\":0.905,\"box\":[880,438,980,472],\"mask\":\"<one_bit 100x34>\"}]}",
+    "<4f> {\"concept\":\"black reading glasses\",\"objects\":[{\"id\":1,\"score\":0.920,\"box\":[880,438,980,472],\"mask\":\"<one_bit 100x34>\"}]}",
+    "<5f> {\"concept\":\"black reading glasses\",\"objects\":[{\"id\":1,\"score\":0.860,\"box\":[880,438,980,472],\"mask\":\"<one_bit 100x34>\"}]}",
+    "<6f> {\"concept\":\"black reading glasses\",\"objects\":[{\"id\":1,\"score\":0.875,\"box\":[880,438,980,472],\"mask\":\"<one_bit 100x34>\"}]}",
+    "<7f> {\"concept\":\"black reading glasses\",\"objects\":[{\"id\":1,\"score\":0.890,\"box\":[880,438,980,472],\"mask\":\"<one_bit 100x34>\"}]}",
+    "<8f> {\"concept\":\"black reading glasses\",\"objects\":[{\"id\":1,\"score\":0.905,\"box\":[880,438,980,472],\"mask\":\"<one_bit 100x34>\"}]}",
+    "<9f> {\"concept\":\"black reading glasses\",\"objects\":[{\"id\":1,\"score\":0.920,\"box\":[880,438,980,472],\"mask\":\"<one_bit 100x34>\"}]}",
+    "<10f> {\"concept\":\"black reading glasses\",\"objects\":[{\"id\":1,\"score\":0.860,\"box\":[880,438,980,472],\"mask\":\"<one_bit 100x34>\"}]}",
+    "<11f> {\"concept\":\"black reading glasses\",\"objects\":[{\"id\":1,\"score\":0.875,\"box\":[880,438,980,472],\"mask\":\"<one_bit 100x34>\"}]}"
+   ]
+  },
+  {
+   "at": 9544,
+   "type": "perception.done",
+   "clipId": "clip_0412",
+   "sightings": [
+    {
+     "id": "s_0412_38",
+     "itemId": "glasses",
+     "clipId": "clip_0412",
+     "frame": 38,
+     "t": "2026-11-03T10:42:07+09:00",
+     "zoneId": "table_right",
+     "box": [
+      880,
+      438,
+      980,
+      472
+     ],
+     "maskUrl": "/fixtures/run-001/masks/glasses_0412_38.placeholder.png",
+     "conf": 0.93,
+     "overlapsPerson": false
+    }
+   ],
+   "ms": 1180,
+   "usd": 0.012
+  },
+  {
+   "at": 9844,
+   "type": "memory.state",
+   "itemId": "glasses",
+   "state": "LAST_SEEN",
+   "sightingId": "s_0412_38",
+   "superseded": [
+    "s_0388_12"
+   ]
+  },
+  {
+   "at": 10044,
+   "type": "policy.check",
+   "text": "Maya, I can't find my glasses.",
+   "lexiconHits": [],
+   "classifier": {
+    "health_related": false
+   },
+   "route": "agent"
+  },
+  {
+   "at": 10344,
+   "type": "agent.tool",
+   "name": "find_object",
+   "args": {
+    "item": "glasses"
+   },
+   "result": {
+    "sightingId": "s_0412_38",
+    "zone": "table, right",
+    "time": "10:42",
+    "relative": "to your right",
+    "conf": 0.93
+   }
+  },
+  {
+   "at": 12644,
+   "type": "agent.reply",
+   "text": "Let me check… They're on the table to your right. You put them there at 10:42.",
+   "facts": {
+    "zone": "table, right",
+    "time": "10:42",
+    "relative": "to your right"
+   },
+   "expression": "happy",
+   "audioUrl": "/fixtures/run-001/audio/ch1-maya-1.placeholder.wav",
+   "alignment": [
+    {
+     "word": "Let",
+     "start": 80,
+     "end": 287
+    },
+    {
+     "word": "me",
+     "start": 332,
+     "end": 470
+    },
+    {
+     "word": "check…",
+     "start": 515,
+     "end": 910
+    },
+    {
+     "word": "They're",
+     "start": 1235,
+     "end": 1717
+    },
+    {
+     "word": "on",
+     "start": 1762,
+     "end": 1900
+    },
+    {
+     "word": "the",
+     "start": 1945,
+     "end": 2152
+    },
+    {
+     "word": "table",
+     "start": 2197,
+     "end": 2542
+    },
+    {
+     "word": "to",
+     "start": 2587,
+     "end": 2725
+    },
+    {
+     "word": "your",
+     "start": 2770,
+     "end": 3046
+    },
+    {
+     "word": "right.",
+     "start": 3091,
+     "end": 3486
+    },
+    {
+     "word": "You",
+     "start": 3811,
+     "end": 4018
+    },
+    {
+     "word": "put",
+     "start": 4063,
+     "end": 4269
+    },
+    {
+     "word": "them",
+     "start": 4314,
+     "end": 4590
+    },
+    {
+     "word": "there",
+     "start": 4635,
+     "end": 4980
+    },
+    {
+     "word": "at",
+     "start": 5025,
+     "end": 5163
+    },
+    {
+     "word": "10:42.",
+     "start": 5208,
+     "end": 5724
+    }
+   ]
+  },
+  {
+   "at": 22602,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Maya, where"
+  },
+  {
+   "at": 23660,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Maya, where are my"
+  },
+  {
+   "at": 24189,
+   "type": "asr.final",
+   "speaker": "samiha",
+   "text": "Maya, where are my glasses?",
+   "audioUrl": "/fixtures/run-001/audio/ch1-samiha-2.placeholder.wav"
+  },
+  {
+   "at": 24489,
+   "type": "policy.check",
+   "text": "Maya, where are my glasses?",
+   "lexiconHits": [],
+   "classifier": {
+    "health_related": false
+   },
+   "route": "agent"
+  },
+  {
+   "at": 24789,
+   "type": "agent.tool",
+   "name": "find_object",
+   "args": {
+    "item": "glasses",
+    "repeatWithinMin": 1
+   },
+   "result": {
+    "sightingId": "s_0412_38",
+    "zone": "table, right",
+    "time": "10:42",
+    "repeated": true
+   }
+  },
+  {
+   "at": 25589,
+   "type": "agent.reply",
+   "text": "The table on your right. Did you find them?",
+   "facts": {
+    "zone": "table on your right"
+   },
+   "expression": "neutral",
+   "audioUrl": "/fixtures/run-001/audio/ch1-maya-2.placeholder.wav",
+   "alignment": [
+    {
+     "word": "The",
+     "start": 80,
+     "end": 287
+    },
+    {
+     "word": "table",
+     "start": 332,
+     "end": 677
+    },
+    {
+     "word": "on",
+     "start": 722,
+     "end": 860
+    },
+    {
+     "word": "your",
+     "start": 905,
+     "end": 1181
+    },
+    {
+     "word": "right.",
+     "start": 1226,
+     "end": 1621
+    },
+    {
+     "word": "Did",
+     "start": 1946,
+     "end": 2153
+    },
+    {
+     "word": "you",
+     "start": 2198,
+     "end": 2405
+    },
+    {
+     "word": "find",
+     "start": 2450,
+     "end": 2725
+    },
+    {
+     "word": "them?",
+     "start": 2770,
+     "end": 3096
+    }
+   ]
+  },
+  {
+   "at": 34000,
+   "type": "chapter",
+   "n": 2,
+   "title": "Today"
+  },
+  {
+   "at": 36227,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Maya, what's"
+  },
+  {
+   "at": 37254,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Maya, what's my day"
+  },
+  {
+   "at": 37768,
+   "type": "asr.final",
+   "speaker": "samiha",
+   "text": "Maya, what's my day today?",
+   "audioUrl": "/fixtures/run-001/audio/ch2-samiha-1.placeholder.wav"
+  },
+  {
+   "at": 38068,
+   "type": "policy.check",
+   "text": "Maya, what's my day today?",
+   "lexiconHits": [],
+   "classifier": {
+    "health_related": false
+   },
+   "route": "agent"
+  },
+  {
+   "at": 38568,
+   "type": "agent.tool",
+   "name": "get_day",
+   "args": {
+    "date": "2026-11-03"
+   },
+   "result": {
+    "appointments": [
+     {
+      "time": "2:00 pm",
+      "title": "Doctor's appointment"
+     },
+     {
+      "time": "1:30 pm",
+      "title": "Yuki picks you up"
+     }
+    ]
+   }
+  },
+  {
+   "at": 39468,
+   "type": "agent.reply",
+   "text": "You have a doctor's appointment at 2 pm. Yuki will pick you up at 1:30.",
+   "facts": {
+    "appointment": "2 pm",
+    "pickup": "1:30"
+   },
+   "expression": "neutral",
+   "audioUrl": "/fixtures/run-001/audio/ch2-maya-1.placeholder.wav",
+   "alignment": [
+    {
+     "word": "You",
+     "start": 80,
+     "end": 287
+    },
+    {
+     "word": "have",
+     "start": 332,
+     "end": 608
+    },
+    {
+     "word": "a",
+     "start": 653,
+     "end": 722
+    },
+    {
+     "word": "doctor's",
+     "start": 767,
+     "end": 1318
+    },
+    {
+     "word": "appointment",
+     "start": 1363,
+     "end": 2122
+    },
+    {
+     "word": "at",
+     "start": 2167,
+     "end": 2305
+    },
+    {
+     "word": "2",
+     "start": 2350,
+     "end": 2419
+    },
+    {
+     "word": "pm.",
+     "start": 2464,
+     "end": 2652
+    },
+    {
+     "word": "Yuki",
+     "start": 2977,
+     "end": 3253
+    },
+    {
+     "word": "will",
+     "start": 3298,
+     "end": 3574
+    },
+    {
+     "word": "pick",
+     "start": 3619,
+     "end": 3894
+    },
+    {
+     "word": "you",
+     "start": 3939,
+     "end": 4146
+    },
+    {
+     "word": "up",
+     "start": 4191,
+     "end": 4329
+    },
+    {
+     "word": "at",
+     "start": 4374,
+     "end": 4512
+    },
+    {
+     "word": "1:30.",
+     "start": 4557,
+     "end": 5004
+    }
+   ]
+  },
+  {
+   "at": 50000,
+   "type": "chapter",
+   "n": 3,
+   "title": "Medicine"
+  },
+  {
+   "at": 50400,
+   "type": "capture.clip",
+   "clipId": "clip_0815",
+   "videoUrl": "/fixtures/run-001/clips/clip_0815.placeholder.mp4",
+   "fps": 5,
+   "frames": 50,
+   "motion": [
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.023,
+    0.031,
+    0.02,
+    0.029,
+    0.052,
+    0.086,
+    0.135,
+    0.202,
+    0.288,
+    0.366,
+    0.486,
+    0.611,
+    0.731,
+    0.83,
+    0.898,
+    0.924,
+    0.878,
+    0.818,
+    0.727,
+    0.615,
+    0.498,
+    0.386,
+    0.288,
+    0.182,
+    0.123,
+    0.082,
+    0.056,
+    0.041,
+    0.033,
+    0.031,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.024,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.024,
+    0.02
+   ]
+  },
+  {
+   "at": 51400,
+   "type": "perception.stream",
+   "clipId": "clip_0815",
+   "concept": "pill box",
+   "lines": [
+    "<0f> {\"concept\":\"pill box\",\"objects\":[{\"id\":1,\"score\":0.860,\"box\":[596,326,694,390],\"mask\":\"<one_bit 98x64>\"}]}",
+    "<1f> {\"concept\":\"pill box\",\"objects\":[{\"id\":1,\"score\":0.875,\"box\":[596,326,694,390],\"mask\":\"<one_bit 98x64>\"}]}",
+    "<2f> {\"concept\":\"pill box\",\"objects\":[{\"id\":1,\"score\":0.890,\"box\":[596,326,694,390],\"mask\":\"<one_bit 98x64>\"}]}",
+    "<3f> {\"concept\":\"pill box\",\"objects\":[{\"id\":1,\"score\":0.905,\"box\":[596,326,694,390],\"mask\":\"<one_bit 98x64>\"}]}",
+    "<4f> {\"concept\":\"pill box\",\"objects\":[{\"id\":1,\"score\":0.920,\"box\":[596,326,694,390],\"mask\":\"<one_bit 98x64>\"}]}",
+    "<5f> {\"concept\":\"pill box\",\"objects\":[{\"id\":1,\"score\":0.860,\"box\":[596,326,694,390],\"mask\":\"<one_bit 98x64>\"}]}",
+    "<6f> {\"concept\":\"pill box\",\"objects\":[{\"id\":1,\"score\":0.875,\"box\":[596,326,694,390],\"mask\":\"<one_bit 98x64>\"}]}",
+    "<7f> {\"concept\":\"pill box\",\"objects\":[{\"id\":1,\"score\":0.890,\"box\":[596,326,694,390],\"mask\":\"<one_bit 98x64>\"}]}",
+    "<8f> {\"concept\":\"pill box\",\"objects\":[{\"id\":1,\"score\":0.905,\"box\":[596,326,694,390],\"mask\":\"<one_bit 98x64>\"}]}",
+    "<9f> {\"concept\":\"pill box\",\"objects\":[{\"id\":1,\"score\":0.920,\"box\":[596,326,694,390],\"mask\":\"<one_bit 98x64>\"}]}"
+   ]
+  },
+  {
+   "at": 52600,
+   "type": "perception.done",
+   "clipId": "clip_0815",
+   "sightings": [
+    {
+     "id": "s_0815_20",
+     "itemId": "pillbox",
+     "clipId": "clip_0815",
+     "frame": 20,
+     "t": "2026-11-03T12:05:12+09:00",
+     "zoneId": "kitchen_shelf",
+     "box": [
+      596,
+      326,
+      694,
+      390
+     ],
+     "maskUrl": "/fixtures/run-001/masks/pillbox_0815_20.placeholder.png",
+     "conf": 0.91,
+     "overlapsPerson": true,
+     "personRegion": "hand"
+    }
+   ],
+   "ms": 1020,
+   "usd": 0.011
+  },
+  {
+   "at": 52800,
+   "type": "memory.state",
+   "itemId": "pillbox",
+   "state": "ON_PERSON",
+   "sightingId": "s_0815_20"
+  },
+  {
+   "at": 54399,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "This is"
+  },
+  {
+   "at": 55198,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "This is my medicine."
+  },
+  {
+   "at": 55997,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "This is my medicine. I take"
+  },
+  {
+   "at": 56795,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "This is my medicine. I take it twice"
+  },
+  {
+   "at": 57594,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "This is my medicine. I take it twice a day"
+  },
+  {
+   "at": 58393,
+   "type": "asr.final",
+   "speaker": "samiha",
+   "text": "This is my medicine. I take it twice a day after eating.",
+   "audioUrl": "/fixtures/run-001/audio/ch3-samiha-1.placeholder.wav"
+  },
+  {
+   "at": 58693,
+   "type": "policy.check",
+   "text": "This is my medicine. I take it twice a day after eating.",
+   "lexiconHits": [
+    "medicine",
+    "take"
+   ],
+   "classifier": {
+    "health_related": true
+   },
+   "route": "ask_caregiver"
+  },
+  {
+   "at": 59293,
+   "type": "agent.tool",
+   "name": "propose_note",
+   "args": {
+    "item": "pillbox",
+    "text": "Pill box, twice a day after meals"
+   },
+   "result": {
+    "noteId": "n_001",
+    "status": "UNCONFIRMED"
+   }
+  },
+  {
+   "at": 59493,
+   "type": "note.created",
+   "noteId": "n_001",
+   "text": "Pill box, twice a day after meals",
+   "by": "maya"
+  },
+  {
+   "at": 59893,
+   "type": "agent.reply",
+   "text": "Noted. I'll check with Yuki first.",
+   "facts": {},
+   "expression": "neutral",
+   "audioUrl": "/fixtures/run-001/audio/ch3-maya-1.placeholder.wav",
+   "alignment": [
+    {
+     "word": "Noted.",
+     "start": 80,
+     "end": 475
+    },
+    {
+     "word": "I'll",
+     "start": 800,
+     "end": 1076
+    },
+    {
+     "word": "check",
+     "start": 1121,
+     "end": 1466
+    },
+    {
+     "word": "with",
+     "start": 1511,
+     "end": 1786
+    },
+    {
+     "word": "Yuki",
+     "start": 1831,
+     "end": 2107
+    },
+    {
+     "word": "first.",
+     "start": 2152,
+     "end": 2547
+    }
+   ]
+  },
+  {
+   "at": 65783,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Can I"
+  },
+  {
+   "at": 66673,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Can I take another"
+  },
+  {
+   "at": 67118,
+   "type": "asr.final",
+   "speaker": "samiha",
+   "text": "Can I take another one?",
+   "audioUrl": "/fixtures/run-001/audio/ch3-samiha-2.placeholder.wav"
+  },
+  {
+   "at": 67418,
+   "type": "policy.check",
+   "text": "Can I take another one?",
+   "lexiconHits": [
+    "take"
+   ],
+   "classifier": {
+    "health_related": true
+   },
+   "route": "ask_caregiver"
+  },
+  {
+   "at": 67918,
+   "type": "agent.tool",
+   "name": "ask_caregiver",
+   "args": {
+    "question": "Can I take another one?",
+    "about": "pillbox"
+   },
+   "result": {
+    "questionId": "q_001",
+    "delivered": true
+   }
+  },
+  {
+   "at": 68418,
+   "type": "agent.reply",
+   "text": "I'll ask Yuki.",
+   "facts": {},
+   "expression": "neutral",
+   "audioUrl": "/fixtures/run-001/audio/ch3-maya-2.placeholder.wav",
+   "alignment": [
+    {
+     "word": "I'll",
+     "start": 80,
+     "end": 356
+    },
+    {
+     "word": "ask",
+     "start": 401,
+     "end": 608
+    },
+    {
+     "word": "Yuki.",
+     "start": 653,
+     "end": 979
+    }
+   ]
+  },
+  {
+   "at": 80000,
+   "type": "chapter",
+   "n": 4,
+   "title": "Yuki confirms"
+  },
+  {
+   "at": 81200,
+   "type": "caregiver.push",
+   "title": "Maya",
+   "body": "Mum says: pill box, twice a day after meals. Confirm?",
+   "actions": [
+    "Confirm",
+    "Edit"
+   ]
+  },
+  {
+   "at": 84600,
+   "type": "caregiver.tap",
+   "action": "Confirm"
+  },
+  {
+   "at": 85000,
+   "type": "note.confirmed",
+   "noteId": "n_001",
+   "text": "Reminder set by Yuki",
+   "by": "yuki"
+  },
+  {
+   "at": 89500,
+   "type": "message.voice",
+   "from": "yuki",
+   "audioUrl": "/fixtures/run-001/audio/ch4-yuki-1.placeholder.wav",
+   "transcript": "Only one after dinner, Mum. Love you."
+  },
+  {
+   "at": 98000,
+   "type": "chapter",
+   "n": 5,
+   "title": "Quiet morning"
+  },
+  {
+   "at": 99000,
+   "type": "escalation.step",
+   "step": "usual_missed",
+   "simulated": true
+  },
+  {
+   "at": 100400,
+   "type": "escalation.step",
+   "step": "check_in",
+   "simulated": true
+  },
+  {
+   "at": 100600,
+   "type": "agent.tool",
+   "name": "check_in_reply",
+   "args": {
+    "prompt": "Good morning. Are you up?"
+   },
+   "result": {
+    "replied": false,
+    "waitedMin": 10
+   }
+  },
+  {
+   "at": 100800,
+   "type": "agent.reply",
+   "text": "Good morning. Are you up?",
+   "facts": {},
+   "expression": "concerned",
+   "audioUrl": "/fixtures/run-001/audio/ch5-maya-1.placeholder.wav",
+   "alignment": [
+    {
+     "word": "Good",
+     "start": 80,
+     "end": 356
+    },
+    {
+     "word": "morning.",
+     "start": 401,
+     "end": 934
+    },
+    {
+     "word": "Are",
+     "start": 1259,
+     "end": 1466
+    },
+    {
+     "word": "you",
+     "start": 1511,
+     "end": 1717
+    },
+    {
+     "word": "up?",
+     "start": 1762,
+     "end": 1950
+    }
+   ]
+  },
+  {
+   "at": 107000,
+   "type": "escalation.step",
+   "step": "alert",
+   "simulated": true
+  },
+  {
+   "at": 107100,
+   "type": "caregiver.push",
+   "title": "Simulated · Maya",
+   "body": "No signs of activity since 9:12. Kettle usually by 8:05.",
+   "actions": [
+    "Call Mum"
+   ]
+  },
+  {
+   "at": 111000,
+   "type": "escalation.step",
+   "step": "second_contact",
+   "simulated": true
+  },
+  {
+   "at": 116000,
+   "type": "chapter",
+   "n": 6,
+   "title": "Messages"
+  },
+  {
+   "at": 116800,
+   "type": "agent.tool",
+   "name": "play_messages",
+   "args": {},
+   "result": {
+    "count": 1,
+    "from": "yuki"
+   }
+  },
+  {
+   "at": 117200,
+   "type": "agent.reply",
+   "text": "Yuki left you a message.",
+   "facts": {},
+   "expression": "neutral",
+   "audioUrl": "/fixtures/run-001/audio/ch6-maya-1.placeholder.wav",
+   "alignment": [
+    {
+     "word": "Yuki",
+     "start": 80,
+     "end": 356
+    },
+    {
+     "word": "left",
+     "start": 401,
+     "end": 677
+    },
+    {
+     "word": "you",
+     "start": 722,
+     "end": 929
+    },
+    {
+     "word": "a",
+     "start": 974,
+     "end": 1043
+    },
+    {
+     "word": "message.",
+     "start": 1088,
+     "end": 1620
+    }
+   ]
+  },
+  {
+   "at": 119800,
+   "type": "message.voice",
+   "from": "yuki",
+   "audioUrl": "/fixtures/run-001/audio/ch4-yuki-1.placeholder.wav",
+   "transcript": "Only one after dinner, Mum. Love you."
+  },
+  {
+   "at": 125059,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Tell her"
+  },
+  {
+   "at": 125918,
+   "type": "asr.partial",
+   "speaker": "samiha",
+   "text": "Tell her I found"
+  },
+  {
+   "at": 126777,
+   "type": "asr.final",
+   "speaker": "samiha",
+   "text": "Tell her I found my glasses.",
+   "audioUrl": "/fixtures/run-001/audio/ch6-samiha-1.placeholder.wav"
+  },
+  {
+   "at": 127377,
+   "type": "message.voice",
+   "from": "samiha",
+   "audioUrl": "/fixtures/run-001/audio/ch6-samiha-msg.placeholder.wav",
+   "transcript": "Tell her I found my glasses."
+  },
+  {
+   "at": 127677,
+   "type": "agent.reply",
+   "text": "Sent.",
+   "facts": {},
+   "expression": "happy",
+   "audioUrl": "/fixtures/run-001/audio/ch6-maya-2.placeholder.wav",
+   "alignment": [
+    {
+     "word": "Sent.",
+     "start": 80,
+     "end": 406
+    }
+   ]
+  },
+  {
+   "at": 127977,
+   "type": "spend",
+   "usd": 0.041,
+   "clipsLeft": 0
+  }
+ ]
+}

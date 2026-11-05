@@ -1,0 +1,388 @@
+{
+ "id": "try-001",
+ "mode": "replay",
+ "frame": {
+  "w": 1280,
+  "h": 720
+ },
+ "items": [
+  {
+   "id": "keys",
+   "name": "my keys",
+   "concept": "keys",
+   "enrolCropUrl": "/fixtures/try-001/stills/keys-crop.placeholder.png"
+  }
+ ],
+ "zones": [
+  {
+   "id": "desk_left",
+   "name": "desk, left",
+   "polygon": [
+    [
+     150,
+     380
+    ],
+    [
+     640,
+     380
+    ],
+    [
+     640,
+     620
+    ],
+    [
+     150,
+     620
+    ]
+   ]
+  },
+  {
+   "id": "desk_right",
+   "name": "desk, right",
+   "polygon": [
+    [
+     640,
+     380
+    ],
+    [
+     1130,
+     380
+    ],
+    [
+     1130,
+     620
+    ],
+    [
+     640,
+     620
+    ]
+   ]
+  }
+ ],
+ "events": [
+  {
+   "at": 0,
+   "type": "capture.clip",
+   "clipId": "clip_try_1",
+   "videoUrl": "/fixtures/try-001/clips/clip_try_1.placeholder.mp4",
+   "fps": 5,
+   "frames": 50,
+   "motion": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.051,
+    0.053,
+    0.057,
+    0.064,
+    0.079,
+    0.104,
+    0.145,
+    0.206,
+    0.291,
+    0.398,
+    0.519,
+    0.643,
+    0.75,
+    0.824,
+    0.85,
+    0.824,
+    0.75,
+    0.643,
+    0.519,
+    0.398,
+    0.291,
+    0.206,
+    0.145,
+    0.104,
+    0.079,
+    0.064,
+    0.057,
+    0.053,
+    0.051,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ]
+  },
+  {
+   "at": 420,
+   "type": "perception.stream",
+   "clipId": "clip_try_1",
+   "concept": "keys",
+   "lines": [
+    "<0f> {\"concept\":\"keys\",\"objects\":[{\"id\":1,\"score\":0.9,\"box\":[300,430,420,500]}]}",
+    "<1f> {\"concept\":\"keys\",\"objects\":[{\"id\":1,\"score\":0.9,\"box\":[300,430,420,500]}]}",
+    "<2f> {\"concept\":\"keys\",\"objects\":[{\"id\":1,\"score\":0.9,\"box\":[300,430,420,500]}]}",
+    "<3f> {\"concept\":\"keys\",\"objects\":[{\"id\":1,\"score\":0.9,\"box\":[300,430,420,500]}]}",
+    "<4f> {\"concept\":\"keys\",\"objects\":[{\"id\":1,\"score\":0.9,\"box\":[300,430,420,500]}]}",
+    "<5f> {\"concept\":\"keys\",\"objects\":[{\"id\":1,\"score\":0.9,\"box\":[300,430,420,500]}]}",
+    "<6f> {\"concept\":\"keys\",\"objects\":[{\"id\":1,\"score\":0.9,\"box\":[300,430,420,500]}]}",
+    "<7f> {\"concept\":\"keys\",\"objects\":[{\"id\":1,\"score\":0.9,\"box\":[300,430,420,500]}]}"
+   ]
+  },
+  {
+   "at": 1640,
+   "type": "perception.done",
+   "clipId": "clip_try_1",
+   "sightings": [
+    {
+     "id": "s_try_31",
+     "itemId": "keys",
+     "clipId": "clip_try_1",
+     "frame": 31,
+     "t": "2026-11-04T14:02:31+09:00",
+     "zoneId": "desk_left",
+     "box": [
+      300,
+      430,
+      420,
+      500
+     ],
+     "maskUrl": "/fixtures/try-001/masks/keys.placeholder.png",
+     "conf": 0.9,
+     "overlapsPerson": false
+    }
+   ],
+   "ms": 1220,
+   "usd": 0.012
+  },
+  {
+   "at": 1900,
+   "type": "memory.state",
+   "itemId": "keys",
+   "state": "LAST_SEEN",
+   "sightingId": "s_try_31"
+  },
+  {
+   "at": 3000,
+   "type": "asr.final",
+   "speaker": "visitor",
+   "text": "Where are my keys?"
+  },
+  {
+   "at": 3200,
+   "type": "policy.check",
+   "text": "Where are my keys?",
+   "lexiconHits": [],
+   "classifier": {
+    "health_related": false
+   },
+   "route": "agent"
+  },
+  {
+   "at": 3700,
+   "type": "agent.tool",
+   "name": "find_object",
+   "args": {
+    "item": "keys"
+   },
+   "result": {
+    "sightingId": "s_try_31",
+    "zone": "desk, left",
+    "time": "14:02:31"
+   }
+  },
+  {
+   "at": 4400,
+   "type": "agent.reply",
+   "text": "Let me check… Your keys were last seen on the desk, on the left, at 14:02.",
+   "facts": {
+    "zone": "desk, left",
+    "time": "14:02"
+   },
+   "expression": "happy",
+   "audioUrl": "/fixtures/try-001/audio/try-maya-1.placeholder.wav",
+   "alignment": [
+    {
+     "word": "Let",
+     "start": 80,
+     "end": 287
+    },
+    {
+     "word": "me",
+     "start": 332,
+     "end": 470
+    },
+    {
+     "word": "check…",
+     "start": 515,
+     "end": 910
+    },
+    {
+     "word": "Your",
+     "start": 1235,
+     "end": 1511
+    },
+    {
+     "word": "keys",
+     "start": 1556,
+     "end": 1831
+    },
+    {
+     "word": "were",
+     "start": 1876,
+     "end": 2152
+    },
+    {
+     "word": "last",
+     "start": 2197,
+     "end": 2473
+    },
+    {
+     "word": "seen",
+     "start": 2518,
+     "end": 2794
+    },
+    {
+     "word": "on",
+     "start": 2839,
+     "end": 2977
+    },
+    {
+     "word": "the",
+     "start": 3022,
+     "end": 3229
+    },
+    {
+     "word": "desk,",
+     "start": 3274,
+     "end": 3600
+    },
+    {
+     "word": "on",
+     "start": 3785,
+     "end": 3923
+    },
+    {
+     "word": "the",
+     "start": 3968,
+     "end": 4174
+    },
+    {
+     "word": "left,",
+     "start": 4219,
+     "end": 4545
+    },
+    {
+     "word": "at",
+     "start": 4730,
+     "end": 4868
+    },
+    {
+     "word": "14:02.",
+     "start": 4913,
+     "end": 5429
+    }
+   ]
+  },
+  {
+   "at": 4600,
+   "type": "spend",
+   "usd": 0.03,
+   "clipsLeft": 0
+  },
+  {
+   "at": 8000,
+   "type": "asr.final",
+   "speaker": "visitor",
+   "text": "This is my medicine."
+  },
+  {
+   "at": 8200,
+   "type": "policy.check",
+   "text": "This is my medicine.",
+   "lexiconHits": [
+    "medicine"
+   ],
+   "classifier": {
+    "health_related": true
+   },
+   "route": "ask_caregiver"
+  },
+  {
+   "at": 8700,
+   "type": "agent.tool",
+   "name": "propose_note",
+   "args": {
+    "text": "Medicine, as described"
+   },
+   "result": {
+    "noteId": "n_try_1",
+    "status": "UNCONFIRMED"
+   }
+  },
+  {
+   "at": 8900,
+   "type": "note.created",
+   "noteId": "n_try_1",
+   "text": "Medicine, as described",
+   "by": "maya"
+  },
+  {
+   "at": 9200,
+   "type": "agent.reply",
+   "text": "Noted. I'll check with Yuki first.",
+   "facts": {},
+   "expression": "neutral",
+   "audioUrl": "/audio/phrases/noted-check-yuki.placeholder.wav",
+   "alignment": [
+    {
+     "word": "Noted.",
+     "start": 80,
+     "end": 475
+    },
+    {
+     "word": "I'll",
+     "start": 800,
+     "end": 1076
+    },
+    {
+     "word": "check",
+     "start": 1121,
+     "end": 1466
+    },
+    {
+     "word": "with",
+     "start": 1511,
+     "end": 1786
+    },
+    {
+     "word": "Yuki",
+     "start": 1831,
+     "end": 2107
+    },
+    {
+     "word": "first.",
+     "start": 2152,
+     "end": 2547
+    }
+   ]
+  },
+  {
+   "at": 9400,
+   "type": "caregiver.push",
+   "title": "Maya",
+   "body": "Mum says: this is my medicine. Confirm?",
+   "actions": [
+    "Confirm",
+    "Edit"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+/* Maya tokens (PRD §3 colour, §4 motion). Components read these, never raw values. */
+:root {
+  --maya-blue: #0064e0;
+  --maya-blue-pressed: #0457cb;
+  --maya-blue-soft: #e7f1fb;
+  --ink: #0a1317;
+  --ink-body: #1c1e21;
+  --steel: #5d6c7b;
+  --canvas: #ffffff;
+  --surface: #f1f4f7;
+  --hairline: #dee3e9;
+  --hairline-strong: #ced0d4;
+  --success: #31a24c;
+  --attention: #f2a918;
+  --critical: #e41e3f;
+  /* text on ink fill (primary pill) */
+  --on-ink: #ffffff;
+  /* the mascot's hair stays ink-dark in both themes */
+  --maya-hair: #0a1317;
+  --maya-face: #ffffff;
+  --maya-outline: transparent;
+  --glass: rgb(255 255 255 / 0.72);
+  --shadow-device: 0 1px 4px rgb(20 22 26 / 0.3), 0 24px 60px rgb(10 19 23 / 0.12);
+  --shadow-bubble: 0 8px 24px rgb(10 19 23 / 0.1);
+
+  --t-micro: 120ms;
+  --t-fast: 180ms;
+  --t-base: 260ms;
+  --t-slow: 420ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --stagger: 50ms;
+
+  --r-pill: 999px;
+  --r-card: 32px;
+  --r-card-sm: 16px;
+  --r-input: 12px;
+  --r-device: 44px;
+
+  --section-y: 120px;
+  --gutter: 16px;
+  --content-max: 1200px;
+
+  color-scheme: light;
+}
+
+@media (max-width: 767px) {
+  :root { --section-y: 64px; }
+}
+@media (min-width: 768px) {
+  :root { --gutter: 32px; }
+}
+
+
+:root[data-theme="dark"] {
+  --maya-blue: #2d8cff;
+  --maya-blue-pressed: #1a73e8;
+  --maya-blue-soft: #0d2540;
+  --ink: #ffffff;
+  --ink-body: #e4e6eb;
+  --steel: #9aa6b2;
+  --canvas: #0a1317;
+  --surface: #141c21;
+  --hairline: #26313a;
+  --hairline-strong: #3a4650;
+  --success: #45bd62;
+  --attention: #f7b928;
+  --critical: #f0284a;
+  --on-ink: #0a1317;
+  --maya-outline: #3a4650;
+  --glass: rgb(10 19 23 / 0.72);
+  --shadow-device: 0 1px 4px rgb(0 0 0 / 0.6), 0 24px 60px rgb(0 0 0 / 0.4);
+  --shadow-bubble: 0 8px 24px rgb(0 0 0 / 0.4);
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --maya-blue: #2d8cff;
+    --maya-blue-pressed: #1a73e8;
+    --maya-blue-soft: #0d2540;
+    --ink: #ffffff;
+    --ink-body: #e4e6eb;
+    --steel: #9aa6b2;
+    --canvas: #0a1317;
+    --surface: #141c21;
+    --hairline: #26313a;
+    --hairline-strong: #3a4650;
+    --success: #45bd62;
+    --attention: #f7b928;
+    --critical: #f0284a;
+    --on-ink: #0a1317;
+    --maya-outline: #3a4650;
+    --glass: rgb(10 19 23 / 0.72);
+    --shadow-device: 0 1px 4px rgb(0 0 0 / 0.6), 0 24px 60px rgb(0 0 0 / 0.4);
+    --shadow-bubble: 0 8px 24px rgb(0 0 0 / 0.4);
+    color-scheme: dark;
+  }
+}

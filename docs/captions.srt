@@ -1,0 +1,75 @@
+1
+00:00:00,000 --> 00:00:06,000
+Glasses. Keys. The pill bottle.
+
+2
+00:00:06,000 --> 00:00:12,000
+Every search is a call to the family.
+
+3
+00:00:12,000 --> 00:00:20,000
+Maya remembers, so they don't have to.
+
+4
+00:00:22,000 --> 00:00:27,000
+Maya, I can't find my glasses.
+
+5
+00:00:28,000 --> 00:00:36,000
+Your glasses were last seen at 7:41 on the side table to your right. Let us look there together.
+
+6
+00:00:40,000 --> 00:00:44,000
+Maya, where are my glasses?
+
+7
+00:00:44,000 --> 00:00:52,000
+Your glasses were last seen at 7:41 on the side table, to your right.
+
+8
+00:00:55,000 --> 00:01:05,000
+Clear glasses in a 1080p wide shot. One ID for the whole clip.
+
+9
+00:01:05,000 --> 00:01:12,000
+This is my medicine. I take it twice a day after eating.
+
+10
+00:01:12,000 --> 00:01:19,000
+Thank you for telling me. I saved this as unconfirmed for Yuki to check.
+
+11
+00:01:20,000 --> 00:01:24,000
+Can I take another one?
+
+12
+00:01:24,000 --> 00:01:31,000
+I will check with Yuki for you. Let us wait a little together.
+
+13
+00:01:31,000 --> 00:01:35,000
+Maya has no tool that can write a reminder.
+
+14
+00:01:35,000 --> 00:01:45,000
+Mum says: pill bottle, twice a day after meals. Confirm?
+
+15
+00:01:45,000 --> 00:01:55,000
+The caregiver writes every reminder.
+
+16
+00:01:55,000 --> 00:02:05,000
+Simulated: no signs of activity since 9:12. Good morning. Are you up?
+
+17
+00:02:05,000 --> 00:02:30,000
+Same clip, same prompts: YOLO11, RT-DETR, Grounding DINO, SAM 3.1.
+
+18
+00:02:30,000 --> 00:02:45,000
+The models perceive and phrase. Our code decides.
+
+19
+00:02:45,000 --> 00:03:00,000
+Watching over, without watching. Not a medical device.

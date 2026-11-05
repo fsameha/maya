@@ -1,0 +1,14 @@
+{
+  "at": "2026-11-04T23:07:18.145Z",
+  "hash": "52b4896f7067",
+  "report": [
+    {
+      "step": "spark",
+      "status": 200,
+      "ms": 6561,
+      "model": "muse-spark-1.3",
+      "toolCall": "find_object({\"item\":\"glasses\"})",
+      "usd": 0.00443
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-04T23:08:07.405Z",
+  "hash": "e1f32a2572db",
+  "report": [
+    {
+      "step": "asr",
+      "status": 200,
+      "ms": 2107,
+      "body": "{\"sessionId\":\"voyager/transcribe/0C4CFA0691B64413A7CD5E9BA35900CC\",\"transcript\":\"Maya, I cannot find my glasses.\",\"audioDurationMs\":2400,\"turns\":[]}",
+      "usd": 0.0002
+    }
+  ]
+}

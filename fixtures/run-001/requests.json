@@ -1,0 +1,178 @@
+[
+  {
+    "at": "2026-11-04T23:18:55.079Z",
+    "model": "sam-3.1",
+    "clipId": "glasses-opened",
+    "concept": "glasses",
+    "requestHash": "92d924dcadf65482",
+    "ms": 9024,
+    "firstLineMs": 3780,
+    "frames": 161,
+    "framesWithHit": 112,
+    "ids": [
+      "0"
+    ],
+    "usd": 0.0322
+  },
+  {
+    "at": "2026-11-04T23:19:14.635Z",
+    "model": "sam-3.1",
+    "clipId": "glasses-table",
+    "concept": "glasses",
+    "requestHash": "452989b67ab877f5",
+    "ms": 8347,
+    "firstLineMs": 4160,
+    "frames": 137,
+    "framesWithHit": 109,
+    "ids": [
+      "0"
+    ],
+    "usd": 0.0274
+  },
+  {
+    "at": "2026-11-04T23:19:20.806Z",
+    "model": "sam-3.1",
+    "clipId": "glasses-table",
+    "concept": "small white pill bottle",
+    "requestHash": "0d042995b47acfcc",
+    "ms": 6170,
+    "firstLineMs": null,
+    "frames": 137,
+    "framesWithHit": 0,
+    "ids": [],
+    "usd": 0.0274
+  },
+  {
+    "at": "2026-11-04T23:19:30.984Z",
+    "model": "sam-3.1",
+    "clipId": "glasses-table",
+    "concept": "person",
+    "requestHash": "2bded27cd089a301",
+    "ms": 10176,
+    "firstLineMs": 3459,
+    "frames": 137,
+    "framesWithHit": 133,
+    "ids": [
+      "0"
+    ],
+    "usd": 0.0274
+  },
+  {
+    "at": "2026-11-04T23:19:44.849Z",
+    "model": "sam-3.1",
+    "clipId": "vitamin-behind-laptop",
+    "concept": "small white pill bottle",
+    "requestHash": "97975e95cfacd3ba",
+    "ms": 5853,
+    "firstLineMs": 4058,
+    "frames": 120,
+    "framesWithHit": 19,
+    "ids": [
+      "1"
+    ],
+    "usd": 0.024
+  },
+  {
+    "at": "2026-11-04T23:19:51.135Z",
+    "model": "sam-3.1",
+    "clipId": "vitamin-behind-laptop",
+    "concept": "glasses",
+    "requestHash": "bceeb3b8e70effa1",
+    "ms": 6285,
+    "firstLineMs": 1809,
+    "frames": 120,
+    "framesWithHit": 120,
+    "ids": [
+      "0"
+    ],
+    "usd": 0.024
+  },
+  {
+    "at": "2026-11-04T23:19:59.511Z",
+    "model": "sam-3.1",
+    "clipId": "vitamin-behind-laptop",
+    "concept": "person",
+    "requestHash": "70c31bc81adb4eda",
+    "ms": 8374,
+    "firstLineMs": 1834,
+    "frames": 120,
+    "framesWithHit": 120,
+    "ids": [
+      "0"
+    ],
+    "usd": 0.024
+  },
+  {
+    "at": "2026-11-04T23:20:20.309Z",
+    "model": "sam-3.1",
+    "clipId": "vitamin",
+    "concept": "small white pill bottle",
+    "requestHash": "b2f9d0e6c1b25b77",
+    "ms": 5289,
+    "firstLineMs": 3395,
+    "frames": 81,
+    "framesWithHit": 39,
+    "ids": [
+      "0"
+    ],
+    "usd": 0.0162
+  },
+  {
+    "at": "2026-11-04T23:31:34.951Z",
+    "model": "sam-3.1",
+    "clipId": "glasses-table",
+    "concept": "white bottle",
+    "requestHash": "a97f95bfa1cc16ca",
+    "ms": 10494,
+    "firstLineMs": 2830,
+    "frames": 137,
+    "framesWithHit": 137,
+    "ids": [
+      "0"
+    ],
+    "usd": 0.0274
+  },
+  {
+    "at": "2026-11-04T23:31:40.897Z",
+    "model": "sam-3.1",
+    "clipId": "glasses-table",
+    "concept": "pill bottle",
+    "requestHash": "3c12149e871d9ed4",
+    "ms": 5944,
+    "firstLineMs": null,
+    "frames": 137,
+    "framesWithHit": 0,
+    "ids": [],
+    "usd": 0.0274
+  },
+  {
+    "at": "2026-11-04T23:31:48.989Z",
+    "model": "sam-3.1",
+    "clipId": "glasses-table",
+    "concept": "bottle",
+    "requestHash": "240ca89bbd3229c8",
+    "ms": 8053,
+    "firstLineMs": 2595,
+    "frames": 137,
+    "framesWithHit": 137,
+    "ids": [
+      "0"
+    ],
+    "usd": 0.0274
+  },
+  {
+    "at": "2026-11-04T23:32:04.182Z",
+    "model": "sam-3.1",
+    "clipId": "vitamin-behind-laptop",
+    "concept": "white bottle",
+    "requestHash": "3adedabcfc9f8564",
+    "ms": 6751,
+    "firstLineMs": 2438,
+    "frames": 120,
+    "framesWithHit": 66,
+    "ids": [
+      "0"
+    ],
+    "usd": 0.024
+  }
+]

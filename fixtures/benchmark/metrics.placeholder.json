@@ -1,0 +1,50 @@
+{
+ "placeholder": true,
+ "note": "Layout only. The Kaggle notebook writes metrics.json with real numbers.",
+ "models": [
+  {
+   "id": "yolo11",
+   "recall50": null,
+   "falseAlarmsPerFrame": null,
+   "maskIoU": null,
+   "idSwitchesPer10s": null,
+   "latencyMs": null,
+   "usdPerClip": null
+  },
+  {
+   "id": "rtdetr",
+   "recall50": null,
+   "falseAlarmsPerFrame": null,
+   "maskIoU": null,
+   "idSwitchesPer10s": null,
+   "latencyMs": null,
+   "usdPerClip": null
+  },
+  {
+   "id": "gdino",
+   "recall50": null,
+   "falseAlarmsPerFrame": null,
+   "maskIoU": null,
+   "idSwitchesPer10s": null,
+   "latencyMs": null,
+   "usdPerClip": null
+  },
+  {
+   "id": "sam31",
+   "recall50": null,
+   "falseAlarmsPerFrame": null,
+   "maskIoU": null,
+   "idSwitchesPer10s": null,
+   "latencyMs": null,
+   "usdPerClip": null
+  }
+ ],
+ "evals": {
+  "memoryQA": null,
+  "healthRecall": null,
+  "falseRoutes": null,
+  "latencyP50": null,
+  "latencyP95": null,
+  "usdPerDay": null
+ }
+}

@@ -1,0 +1,52 @@
+{
+  "at": "2026-11-04T23:07:45.258Z",
+  "hash": "f0c5ff3158a4",
+  "report": [
+    {
+      "step": "sam:glasses-table-glasses",
+      "prompt": "glasses",
+      "ms": 3537,
+      "firstLineMs": 2770,
+      "framesWithHit": "34/46",
+      "objectIds": [
+        "0"
+      ],
+      "maxConf": 0.7229437232017517,
+      "usd": 0.01
+    },
+    {
+      "step": "sam:glasses-table-glasses-phrase",
+      "prompt": "reading glasses on the table",
+      "ms": 2586,
+      "firstLineMs": null,
+      "framesWithHit": "0/46",
+      "objectIds": [],
+      "maxConf": null,
+      "usd": 0.01
+    },
+    {
+      "step": "sam:glasses-table-person",
+      "prompt": "person",
+      "ms": 2856,
+      "firstLineMs": 1515,
+      "framesWithHit": "45/46",
+      "objectIds": [
+        "0"
+      ],
+      "maxConf": 9,
+      "usd": 0.01
+    },
+    {
+      "step": "sam:vitamin-behind-laptop-pillbox",
+      "prompt": "small white pill bottle",
+      "ms": 3976,
+      "firstLineMs": 3379,
+      "framesWithHit": "20/41",
+      "objectIds": [
+        "0"
+      ],
+      "maxConf": 0.7344398498535156,
+      "usd": 0.01
+    }
+  ]
+}
